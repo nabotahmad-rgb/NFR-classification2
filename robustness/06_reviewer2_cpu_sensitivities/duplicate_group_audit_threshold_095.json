@@ -1,0 +1,58 @@
+{
+  "method": {
+    "vectorizer": "TfidfVectorizer",
+    "analyzer": "char_wb",
+    "ngram_range": [
+      3,
+      5
+    ],
+    "min_df": 2,
+    "sublinear_tf": false,
+    "cosine_threshold": 0.95,
+    "clustering": "connected components over all pairs at or above threshold"
+  },
+  "n_records": 1667,
+  "n_similarity_pairs_ge_threshold": 61,
+  "n_records_with_neighbor_ge_threshold": 73,
+  "n_groups_total": 1623,
+  "n_multi_record_clusters": 29,
+  "largest_cluster": 5,
+  "n_mixed_label_multi_clusters": 0,
+  "original_random_fold_pair_crossing": {
+    "0": {
+      "n_pairs_crossing_fold": 47,
+      "n_pairs": 61,
+      "fraction": 0.7704918032786885
+    },
+    "1": {
+      "n_pairs_crossing_fold": 47,
+      "n_pairs": 61,
+      "fraction": 0.7704918032786885
+    },
+    "2": {
+      "n_pairs_crossing_fold": 51,
+      "n_pairs": 61,
+      "fraction": 0.8360655737704918
+    },
+    "3": {
+      "n_pairs_crossing_fold": 52,
+      "n_pairs": 61,
+      "fraction": 0.8524590163934426
+    },
+    "4": {
+      "n_pairs_crossing_fold": 56,
+      "n_pairs": 61,
+      "fraction": 0.9180327868852459
+    }
+  },
+  "grouped_fold_pair_crossing_counts": {
+    "0": 0,
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0
+  },
+  "repeats": 5,
+  "outer_folds_per_repeat": 5,
+  "inner_validation_group_safe": true
+}

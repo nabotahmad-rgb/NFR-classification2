@@ -1,0 +1,43 @@
+{
+  "design": "5-fold outer CV, fixed inner validation per outer fold; outer test untouched during tuning",
+  "outer_rep": 0,
+  "trials_per_arch_per_fold": 5,
+  "total_tuning_trials_per_arch": 25,
+  "epochs_tune": 6,
+  "epochs_final": 10,
+  "search_space": {
+    "lr": "log-uniform[1e-5,5e-5]",
+    "batch_size": [
+      8,
+      16
+    ],
+    "full.lambda_con": "log-uniform[0.03,0.30]",
+    "full.maml_inner_lr": "log-uniform[3e-4,3e-3]",
+    "trial_0": "published defaults"
+  },
+  "tuning_seconds_by_arch": {
+    "full": 9488.303750038147,
+    "roberta_only": 4561.197786569595
+  },
+  "metrics": [
+    {
+      "arch": "full",
+      "n": 1667,
+      "accuracy": 0.9628074385122976,
+      "macro_f1": 0.9010346359136683
+    },
+    {
+      "arch": "roberta_only",
+      "n": 1667,
+      "accuracy": 0.9634073185362927,
+      "macro_f1": 0.8923123934078874
+    }
+  ],
+  "paired_bootstrap": {
+    "delta_full_minus_encoder": 0.008722242505780908,
+    "ci95_lo": -0.015221234165562491,
+    "ci95_hi": 0.03368211468440045,
+    "bootstrap_p_two_sided": 0.4765,
+    "n_boot": 4000
+  }
+}

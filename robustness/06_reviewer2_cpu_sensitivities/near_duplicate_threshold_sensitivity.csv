@@ -1,0 +1,4 @@
+cosine_threshold,similarity_pairs,records_involved,multi_record_clusters,largest_cluster,mixed_label_clusters,tfidf_grouped_macro_f1_mean,tfidf_grouped_macro_f1_sd
+0.85,165,182,72,9,1,0.8277366113940197,0.007790059988706012
+0.9,118,138,55,9,1,0.8408560109207386,0.007702838105933123
+0.95,61,73,29,5,0,0.8215076019903755,0.01694111492841932

@@ -1,0 +1,28 @@
+item_id,text,label
+NFR_01686,The CNG and the Customer Network shall assure the confidentiality the integrity of signalling/control/media and management flows.,Security
+NFR_01687,The CNG and the Customer Network shall provide the opportunity for a customer network administrator to perform service and network-related configuration. According to the service/network provider choices the CNG and Customer Network may prevent - user initiated modification of network and service related parameters.,Usability
+NFR_01688,The CNG may allow secure dynamic firewall opening for remote access devices based on NGN authentication functions.,Security
+NFR_01689,If Home to Home (H2H) communication service is provided then each CNG must limit access to local CNDs and/or media classes based on the access rights of the remote H2H user identity.,Security
+NFR_01690,The CPN may support encrypted communication with remote access devices and the encrypted communication can be terminated either at the CNG or CND.,Security
+NFR_01692,The user should be able to personalize bookmarks to UGC.,Usability
+NFR_01693,The CNG and the CPN shall support adequate Quality of Service mechanisms (e.g. prioritize the traffic in the event that there is not sufficient bandwidth in the customer network in order to ensure the correct network performances to each traffic flow). To achieve this objective a number of functionalities shall be supported by CNG and/or CNDs as defined in the following bullets. Most of the following set of requirements is defined adopting as a reference the Home Gateway Initiative (HGI) Release 1 Specification mentioned in clause 2 [6].,Performance
+NFR_01694,The NGN network QoS functions shall be possible to use to enhance the end-user experience.,Performance
+NFR_01695,The CNG may interact with the Resource and Admission Control Subsystem (RACS) as defined in ES 282 001 [9] to support remote real-time QoS control,Performance
+NFR_01696,The CNG may interact with network elements inside the CPN to support QoS control inside the CPN.,Performance
+NFR_01697,The CNG shall classify packets entering the CPN through its WAN interface (downstream direction) according to a number of predefined priorities. Classification can be done on the basis of different layer 2 and/or layer 3 parameters.,Performance
+NFR_01698,The number of possible values defining the packet priority and by consequence the number of queues managed in the downstream direction shall be coherent with the number of concurrent services (data communication entertainment) to be treated and supported.,Performance
+NFR_01699,When forwarding packets from the WAN interface to the customer network the CNG shall perform one of the following three actions depending on the classification results: manage a number of queues corresponding to the different priorities detected in the classification phase for each packet processed send the packets to some internal buffers or simply drop the packet.,Performance
+NFR_01700,The CNG shall classify packets coming from the CPN through its LAN interfaces (upstream direction) according to a number of predefined priorities. Classification can be done on the basis of different layer 2 and/or layer 3 parameters.,Performance
+NFR_01701,The number of possible values defining the packet priority and by consequence the number of queues managed in the upstream direction shall be coherent with the number of concurrent services (data communication entertainment) to be treated and supported.,Performance
+NFR_01702,When forwarding packets from the customer network to the WAN interface the CNG shall manage a number of queues corresponding to the different priorities detected in the classification phase for each packet processed.,Performance
+NFR_01703,The CNG shall be able to classify intra-LAN traffic that is simply bridged by the CNG itself within the CPN.,Performance
+NFR_01704,Traffic marking: depending on what are the parameters used to perform classification CNDs or CNG itself on behalf of the CNDs shall be able to modify the packets' priority.,Performance
+NFR_01705,In case of huge amount of traffic in upstream or downstream directions a congestion management mechanism shall be implemented in the CNG to minimize the impact from the user experience point of view.,Performance
+NFR_01706,In case of managed services QoS rules applied by CNG shall be configurable by a remote management system.,Performance
+NFR_01707,It shall be possible to configure the CNG (e.g. firmware downloading) according to the subscribed services. This operation may be performed when the CNG is connected to the network for the first time for each new service subscription/modification or for any technical management (e.g. security patches etc.).,Security
+NFR_01708,CNG shall support mechanisms for secure authentication and communication with the remote management system.,Security
+NFR_01710,Protection mechanisms shall be implemented to avoid that a management client could access and modify parameters that is not allow to configure.,Security
+NFR_01711,The CPN should support a capability to ensure QoS and call prioritization for sessions originating or terminating in the H(e)NB.,Performance
+NFR_01712,The CPN shall support secure remote access control based on NGN network functions.,Security
+NFR_01713,The CNG shall support mechanisms for secure authentication and communication with the remote management system.,Security
+NFR_01714,CNG shall support mechanisms allowing the CNDs remote management when applicable.,Security

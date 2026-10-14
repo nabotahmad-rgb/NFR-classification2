@@ -1,0 +1,73 @@
+[
+ {
+  "collection": "Mendeley",
+  "slug": "Mendeley",
+  "n_train": 1368,
+  "n_val": 242,
+  "n_test": 57,
+  "classes": [
+   "Performance",
+   "Reliability",
+   "Security",
+   "Usability"
+  ]
+ },
+ {
+  "collection": "PURE_and_others",
+  "slug": "PURE_and_others",
+  "n_train": 507,
+  "n_val": 89,
+  "n_test": 1071,
+  "classes": [
+   "Security"
+  ]
+ },
+ {
+  "collection": "SecReq Customer Premises Network (CPN)",
+  "slug": "SecReq_Customer_Premises_Network__CPN_",
+  "n_train": 1394,
+  "n_val": 246,
+  "n_test": 27,
+  "classes": [
+   "Performance",
+   "Security",
+   "Usability"
+  ]
+ },
+ {
+  "collection": "promise_exp",
+  "slug": "promise_exp",
+  "n_train": 1276,
+  "n_val": 226,
+  "n_test": 165,
+  "classes": [
+   "Performance",
+   "Reliability",
+   "Security",
+   "Usability"
+  ]
+ },
+ {
+  "collection": "requirements_MoSCoW",
+  "slug": "requirements_MoSCoW",
+  "n_train": 1326,
+  "n_val": 233,
+  "n_test": 108,
+  "classes": [
+   "Security"
+  ]
+ },
+ {
+  "collection": "software_requirements_extended",
+  "slug": "software_requirements_extended",
+  "n_train": 1215,
+  "n_val": 215,
+  "n_test": 237,
+  "classes": [
+   "Performance",
+   "Reliability",
+   "Security",
+   "Usability"
+  ]
+ }
+]

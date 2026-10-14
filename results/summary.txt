@@ -1,0 +1,165 @@
+========================================================================
+INTEGRITY CHECKS
+========================================================================
+  [PASS] all 40 runs evaluated on an identical item set (n = 1667)
+  [PASS] gold labels constant across all runs
+  [WARN] MAGNET-NFR-distilroberta-base: 5 seeds [0, 1, 2, 3, 4]
+  [WARN] MAGNET-NFR-no_contrastive-distilroberta-base: 5 seeds [0, 1, 2, 3, 4]
+  [WARN] MAGNET-NFR-no_gcn-distilroberta-base: 5 seeds [0, 1, 2, 3, 4]
+  [WARN] MAGNET-NFR-no_meta-distilroberta-base: 5 seeds [0, 1, 2, 3, 4]
+  [WARN] MAGNET-NFR-no_xl-distilroberta-base: 5 seeds [0, 1, 2, 3, 4]
+  [WARN] MAGNET-NFR-roberta_only-distilroberta-base: 5 seeds [0, 1, 2, 3, 4]
+  [WARN] NoRBERT-bert-base-uncased: 5 seeds [0, 1, 2, 3, 4]
+  [WARN] TFIDF-LinearSVC: 5 seeds [0, 1, 2, 3, 4]
+
+  MAJORITY-CLASS FLOOR: always-predict-Security = 80.56%
+  Every accuracy below must be read against this, not against zero.
+
+  Evaluation set size: 1667
+  >> If your corpus is ~1,531 and this is a 70/15/15 holdout, expect ~230.
+  >> 1667 rows means either out-of-fold CV predictions (fine) or
+     scoring on training data (fatal). Confirm before reporting anything.
+
+========================================================================
+PER-CONFIG PERFORMANCE
+========================================================================
+
+  MAGNET-NFR-distilroberta-base  (5 seeds)
+    accuracy    96.22% +/- 0.28   95% CI [95.62, 97.36]
+    macro F1   0.8984 +/- 0.0067
+    margin over majority floor: +15.66 pp
+    Shapiro-Wilk p = 0.410  (normal at alpha=0.05)
+
+  MAGNET-NFR-no_contrastive-distilroberta-base  (5 seeds)
+    accuracy    96.09% +/- 0.46   95% CI [96.04, 97.66]
+    macro F1   0.8933 +/- 0.0140
+    margin over majority floor: +15.52 pp
+    Shapiro-Wilk p = 0.083  (normal at alpha=0.05)
+
+  MAGNET-NFR-no_gcn-distilroberta-base  (5 seeds)
+    accuracy    96.14% +/- 1.08   95% CI [96.40, 97.96]
+    macro F1   0.8955 +/- 0.0256
+    margin over majority floor: +15.57 pp
+    Shapiro-Wilk p = 0.093  (normal at alpha=0.05)
+
+  MAGNET-NFR-no_meta-distilroberta-base  (5 seeds)
+    accuracy    96.30% +/- 0.28   95% CI [95.08, 96.94]
+    macro F1   0.8983 +/- 0.0054
+    margin over majority floor: +15.74 pp
+    Shapiro-Wilk p = 0.413  (normal at alpha=0.05)
+
+  MAGNET-NFR-no_xl-distilroberta-base  (5 seeds)
+    accuracy    96.38% +/- 0.23   95% CI [95.38, 97.24]
+    macro F1   0.8980 +/- 0.0068
+    margin over majority floor: +15.81 pp
+    Shapiro-Wilk p = 0.613  (normal at alpha=0.05)
+
+  MAGNET-NFR-roberta_only-distilroberta-base  (5 seeds)
+    accuracy    96.32% +/- 0.40   95% CI [95.86, 97.54]
+    macro F1   0.8966 +/- 0.0143
+    margin over majority floor: +15.75 pp
+    Shapiro-Wilk p = 0.752  (normal at alpha=0.05)
+
+  NoRBERT-bert-base-uncased  (5 seeds)
+    accuracy    96.30% +/- 0.23   95% CI [95.62, 97.36]
+    macro F1   0.8961 +/- 0.0089
+    margin over majority floor: +15.74 pp
+    Shapiro-Wilk p = 0.137  (normal at alpha=0.05)
+
+  TFIDF-LinearSVC  (5 seeds)
+    accuracy    95.48% +/- 0.21   95% CI [94.78, 96.76]
+    macro F1   0.8730 +/- 0.0065
+    margin over majority floor: +14.91 pp
+    Shapiro-Wilk p = 0.685  (normal at alpha=0.05)
+
+========================================================================
+COMPARISONS vs MAGNET-NFR-distilroberta-base
+========================================================================
+
+  MAGNET-NFR-distilroberta-base  vs  MAGNET-NFR-no_contrastive-distilroberta-base
+    delta accuracy -0.13 pp   delta macroF1 -0.0051
+    McNemar  n12=98 n21=87  chi2=0.541  p=0.4622   >>> NOT SIGNIFICANT <<<
+    Wilcoxon acc p=0.6250   macroF1 p=0.3125
+    Cohen's d = 0.344 (small)
+    >> Removing this component costs nothing measurable.
+    >> Report it as such. A null here is a finding, not a failure.
+
+  MAGNET-NFR-distilroberta-base  vs  MAGNET-NFR-no_gcn-distilroberta-base
+    delta accuracy -0.08 pp   delta macroF1 -0.0029
+    McNemar  n12=105 n21=98  chi2=0.177  p=0.6737   >>> NOT SIGNIFICANT <<<
+    Wilcoxon acc p=0.5625   macroF1 p=0.6250
+    Cohen's d = 0.106 (negligible)
+    >> Removing this component costs nothing measurable.
+    >> Report it as such. A null here is a finding, not a failure.
+
+  MAGNET-NFR-distilroberta-base  vs  MAGNET-NFR-no_meta-distilroberta-base
+    delta accuracy +0.08 pp   delta macroF1 -0.0001
+    McNemar  n12=87 n21=94  chi2=0.199  p=0.6556   >>> NOT SIGNIFICANT <<<
+    Wilcoxon acc p=0.5625   macroF1 p=1.0000
+    Cohen's d = -0.299 (small)
+    >> Removing this component costs nothing measurable.
+    >> Report it as such. A null here is a finding, not a failure.
+
+  MAGNET-NFR-distilroberta-base  vs  MAGNET-NFR-no_xl-distilroberta-base
+    delta accuracy +0.16 pp   delta macroF1 -0.0005
+    McNemar  n12=86 n21=99  chi2=0.778  p=0.3776   >>> NOT SIGNIFICANT <<<
+    Wilcoxon acc p=0.5000   macroF1 p=0.8125
+    Cohen's d = -0.602 (medium)
+    >> Removing this component costs nothing measurable.
+    >> Report it as such. A null here is a finding, not a failure.
+
+  MAGNET-NFR-distilroberta-base  vs  MAGNET-NFR-roberta_only-distilroberta-base
+    delta accuracy +0.10 pp   delta macroF1 -0.0018
+    McNemar  n12=87 n21=95  chi2=0.269  p=0.6038   >>> NOT SIGNIFICANT <<<
+    Wilcoxon acc p=0.6250   macroF1 p=0.6250
+    Cohen's d = -0.277 (small)
+    >> Removing this component costs nothing measurable.
+    >> Report it as such. A null here is a finding, not a failure.
+
+  MAGNET-NFR-distilroberta-base  vs  NoRBERT-bert-base-uncased
+    delta accuracy +0.08 pp   delta macroF1 -0.0023
+    McNemar  n12=129 n21=136  chi2=0.136  p=0.7124   >>> NOT SIGNIFICANT <<<
+    Wilcoxon acc p=0.6250   macroF1 p=0.6250
+    Cohen's d = -0.324 (small)
+    >> Removing this component costs nothing measurable.
+    >> Report it as such. A null here is a finding, not a failure.
+
+  MAGNET-NFR-distilroberta-base  vs  TFIDF-LinearSVC
+    delta accuracy -0.74 pp   delta macroF1 -0.0254
+    McNemar  n12=226 n21=164  chi2=9.541  p=0.0020   SIGNIFICANT
+    Wilcoxon acc p=0.0625   macroF1 p=0.0625
+    Cohen's d = 2.952 (large)
+
+========================================================================
+FRIEDMAN (all configs)
+========================================================================
+  chi2 = 14.204  df = 7  p = 0.0477
+  mean ranks: {'MAGNET-NFR-distilroberta-base': 4.9, 'MAGNET-NFR-no_contrastive-distilroberta-base': 5.4, 'MAGNET-NFR-no_gcn-distilroberta-base': 3.6, 'MAGNET-NFR-no_meta-distilroberta-base': 3.1, 'MAGNET-NFR-no_xl-distilroberta-base': 3.3, 'MAGNET-NFR-roberta_only-distilroberta-base': 4.1, 'NoRBERT-bert-base-uncased': 3.8, 'TFIDF-LinearSVC': 7.8}
+
+========================================================================
+MULTIPLE-TESTING CORRECTION
+========================================================================
+  m = 7 comparisons vs reference -> alpha' = 0.0071
+  m = 28 all-pairs           -> alpha' = 0.0018
+    MAGNET-NFR-no_contrastive-distilroberta-base: p=0.4622 does NOT survive Bonferroni
+    MAGNET-NFR-no_gcn-distilroberta-base: p=0.6737 does NOT survive Bonferroni
+    MAGNET-NFR-no_meta-distilroberta-base: p=0.6556 does NOT survive Bonferroni
+    MAGNET-NFR-no_xl-distilroberta-base: p=0.3776 does NOT survive Bonferroni
+    MAGNET-NFR-roberta_only-distilroberta-base: p=0.6038 does NOT survive Bonferroni
+    NoRBERT-bert-base-uncased: p=0.7124 does NOT survive Bonferroni
+    TFIDF-LinearSVC: p=0.0020 survives Bonferroni
+
+========================================================================
+PER-CATEGORY (MAGNET-NFR-distilroberta-base, first seed)
+========================================================================
+
+              precision    recall  f1-score   support
+
+ Performance      0.917     0.943     0.930       106
+ Reliability      0.907     0.721     0.803        68
+    Security      0.977     0.990     0.984      1343
+   Usability      0.909     0.867     0.887       150
+
+    accuracy                          0.965      1667
+   macro avg      0.928     0.880     0.901      1667
+weighted avg      0.964     0.965     0.964      1667

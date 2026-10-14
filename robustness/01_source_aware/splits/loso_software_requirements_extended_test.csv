@@ -1,0 +1,238 @@
+item_id,text,label
+NFR_00174,The system shall refresh the display every 60 seconds.,Performance
+NFR_00175,The application shall match the color of the schema set forth by Department of Homeland Security,Usability
+NFR_00176,If projected the data must be readable. On a 10x10 projection screen 90% of viewers must be able to read Event / Activity data from a viewing distance of 30,Usability
+NFR_00177,The product shall be available during normal business hours. As long as the user has access to the client PC the system will be available 99% of the time during the first six months of operation.,Reliability
+NFR_00178,If projected the data must be understandable. On a 10x10 projection screen 90% of viewers must be able to determine that Events or Activities are occuring in current time from a viewing distance of 100,Usability
+NFR_00179,The product shall ensure that it can only be accessed by authorized users. The product will be able to distinguish between authorized and unauthorized users in all access attempts,Security
+NFR_00180,The product shall be intuitive and self-explanatory.,Usability
+NFR_00181,The product shall respond fast to keep up-to-date data in the display.,Performance
+NFR_00182,The product shall comply with corporate User Interface Guidelines,Usability
+NFR_00183,The product shall comply with corporate color scheme,Usability
+NFR_00184,The appearance of the product shall appear professional,Usability
+NFR_00186,The product shall be easy to use by Adjusters and Collision Estimators. 95% of Adjusters and Collision Estimators shall find the product easy to use.,Usability
+NFR_00187,The product shall increase productivity of Collision Estimators. 80% of the Collision Estimators shall agree their productivity has increase within 1 month of using the product.,Usability
+NFR_00188,Users shall feel satisfied using the product. 85% of all users will be satisfied with the product.,Usability
+NFR_00189,The product shall be easy to learn by Adjusters and Collision Estimators. The product shall be learned with two days onsite training,Usability
+NFR_00190,The user shall easily locate instructions while using the product. User help can be found within 90% of the system.,Usability
+NFR_00191,The search for recycled parts shall take no longer than 15 seconds. The search results shall be returned in under 15 seconds.,Performance
+NFR_00192,The search for the preferred repair facility shall take no longer than 8 seconds. The preferred repair facility is returned within 8 seconds,Performance
+NFR_00193,The recycled parts audit report shall be returned to the user within 10 seconds. The audit report shall be returned within 10 seconds.,Performance
+NFR_00194,The preferred repair facility ratings shall be saved within 5 seconds. The save shall occur within 5 seconds.,Performance
+NFR_00195,The product shall adhere to the corporate online availability schedule. The application is brought down only within 98% of the scheduled outages per the availability schedule.,Reliability
+NFR_00196,The product shall achieve a 98% uptime. The product shall not fail more than 2% of the available online time.,Reliability
+NFR_00197,Only adjusters can request recycled parts audit reports. No users without an adjuster role shall request recycled parts audits.,Security
+NFR_00198,Only adjusters with a supervisor role can update preferred repair facility ratings. Users without the supervisor role cannot access the repair facility ratings.,Security
+NFR_00199,Only collision estimators shall search for recycled parts. Users without the collision estimator role shall not have access to the search for recycled parts.,Security
+NFR_00200,Only valid data shall be entered into the system. No invalid data shall be entered into the system.,Security
+NFR_00201,One insurance company shall not be able to view another insurance companys claim data.,Security
+NFR_00202,The product shall free of computer viruses.,Security
+NFR_00203,The system shall prevent malicious attacks including denial of service.,Security
+NFR_00204,The product s Look and Feel shall be able to incorporate aspects of the customer s organization such as logo branding and identity,Usability
+NFR_00205,The product shall have a conservative and professional appearance.,Usability
+NFR_00206,The product shall make the users want to use it. 80% of the users surveyed report they are regularly using the product after the first 2 weeks post-launch.,Usability
+NFR_00207,The product shall be easy to use. 90% of users will be able to successfully reserve a conference room within 5 minutes of product use.,Usability
+NFR_00208,The product shall give users feedback when necessary. 80% of the users surveyed report that the product accurately confirms their actions.,Usability
+NFR_00209,The product shall allow the user to select a chosen language from one of the target market countries.,Usability
+NFR_00210,The product shall allow for customization of start page and views preferences.,Usability
+NFR_00211,An employee will be able to successfully use the product within a few minutes. After informally navigating the product for less than 15 minutes users shall be able to successfully setup meetings and reserve conference rooms.,Usability
+NFR_00212,The product shall use a standard navigation menu familiar to most web users.,Usability
+NFR_00213,The product shall allow for intuitive searching of available conference rooms.,Usability
+NFR_00214,The product shall conform to the Americans with Disabilities Act.,Usability
+NFR_00215,The response shall be fast enough to avoid interrupting the user s flow of thought. 90% of tasks shall complete within 5 seconds. 98% of tasks shall complete within 8 seconds.,Performance
+NFR_00216,Aside from server failure the software product shall achieve 99.99% up time.,Reliability
+NFR_00217,The product shall create an exception log of problems encountered within the product for transmission to our company for analysis and resolution.,Reliability
+NFR_00218,A new user must be able to be added to the system within 10 minutes. 90% of new users are able to log into the system within 10 minutes.,Usability
+NFR_00222,Every registered user will have access to the product s support site via the Internet. 70% of registered users shall find a solution to their problem within 5 minutes of using the support site.,Usability
+NFR_00224,The product shall be translated into foreign languages other than the target market countries languages in future releases. For each emerging target market it shall take no more than 5 days to configure the product for that market s language.,Usability
+NFR_00225,The product shall ensure that only company employees or external users with company-approved user IDs may have product access. 100% of all logons shall be by either company employees or external users with company-approved user IDs.,Security
+NFR_00226,Only managers are able to perform search queries for reservations by user. 100% of all search queries for reservations by user shall be from logons of only management logons.,Security
+NFR_00227,The product shall ensure that the database s data corresponds to the data entered by the user. Each conference room reservation in the system will contain the same information as was entered by the user.,Security
+NFR_00228,The product shall prevent the input of malicious data. The product and/or adjacent hardware/software systems data shall remain 100% uncorrupted each time malicious data is input into the product.,Security
+NFR_00229,The product and/or dependent databases/filesystems shall remain operational as a result of the input of malicious data. The product and/or dependent databases/filesystems shall not crash 100% of the time that malicious data is input into the product.,Reliability
+NFR_00230,The product shall have the ability to receive automatic software updates as new threats emerge. 100% of customers will be able to receive automatic software updates transmitted to the installed product.,Security
+NFR_00231,The product shall be able to display calendar dates and times according to the user s locale. 90% of survey respondents from each target market country will find that the date and time formatting of the product is correct.,Usability
+NFR_00232,Recreation of Inventory Quantity Adjustment for the period of previous 30 days shall take no more than 30min.,Performance
+NFR_00233,The System shall allow for a minimum of 6 users to work at the same time.,Performance
+NFR_00234,The System shall maintain consistent security. Any changes in user passwords and/or permissions should take affect in all parts of the System.,Security
+NFR_00235,The System shall granularly control access rights to all major subsystems. It should be possible to assign access rights to all subsystems independently.,Security
+NFR_00236,Administrator shall be able to activate a pre-paid card via the Administration section in under 5 seconds.,Performance
+NFR_00237,Customer shall be able to check the status of their prepaid card by entering in the PIN number in under 5 seconds.,Performance
+NFR_00238,System shall let customers register on the website as a pay as you go user in under 5 minutes.,Performance
+NFR_00239,System shall let customers register on the website as a unlimited movie subscriber user in under 10 minutes.,Performance
+NFR_00240,System shall let existing customers log into the website with their email address and password in under 5 seconds.,Performance
+NFR_00241,System shall let customers cancel their account process shall take no longer than 2 minutes. Database will mark the account as inactive and user will not be able to log into the website.,Performance
+NFR_00242,System shall let administrator de-activate a customer account in under 1 minute. Customer will no longer be able to access the website.,Performance
+NFR_00243,System shall let administrator add/remove movies on the website in under 5 minutes. Entered movie information will be stored in the database and will now be available on the website.,Performance
+NFR_00244,System shall let the administrator add/remove categories on the website in under 5 minutes.,Performance
+NFR_00245,System shall let Izogn Manager access sales and usage statistics in under 2 minutes.,Performance
+NFR_00246,System shall let administrators generate unique pre-paid pins in under 2 minutes and generate an Excel file with the generated PINs.,Performance
+NFR_00247,The website shall be attractive to all audiences. The website shall appear to be fun and the colors should be bright and vibrant.,Usability
+NFR_00248,The website should have an African feel but should not alienate non-Africans. The website should use animation on pages which are describing the services to grab the users attention and encourage them to sign up.,Usability
+NFR_00249,The website design should be modern clean and concise.,Usability
+NFR_00250,The product should be able to be used by 90% of novice users on the Internet.,Usability
+NFR_00251,Users should only have to navigate through a maximum of 4 pages to create an account with the website.,Usability
+NFR_00252,Users should be able to access their streaming movies in under 2 clicks after logging into the website.,Usability
+NFR_00253,An anonymous survey will show that 70% of customers are comfortable purchasing streaming movies after 2 weeks using the website.,Usability
+NFR_00254,An anonymous survey will show that 95% of customers are comfortable using and purchasing pre-paid cards after a month of using the system.,Usability
+NFR_00255,The product shall retain the customer s buying preferences and information.,Usability
+NFR_00256,The product shall be easy for customers with novice skills on the Internet to purchase and watch streaming movies. Customers should be able to purchase and watch a pre-determined movie in under 3 minutes.,Usability
+NFR_00257,The product shall use symbols and words that are naturally understandable by users familiar with websites,Usability
+NFR_00258,The website will use standard Internet conventions when interacting with the user.,Usability
+NFR_00259,Any interface between a user and the automated system shall have a maximum response time of 5 seconds unless noted by an exception below.,Performance
+NFR_00260,When purchasing a streaming movie or pre-paid card via credit card the processing time should have a maximum response time of 15 seconds.,Performance
+NFR_00261,When streaming a movie the buffering time should take no longer than 10 seconds (plus any latency on the user s connection.),Performance
+NFR_00262,While streaming a movie buffering should only occur if there is latency in the user s connection.,Performance
+NFR_00263,All credit card information will be secured on the server and only accessible by authorized Izogn administrators. Information will be encrypted in the database.,Security
+NFR_00264,The website shall be available for use 24 hours per day 365 days per year.,Reliability
+NFR_00265,The website shall achieve 99.5% up time.,Reliability
+NFR_00266,All movies shall be streamed on demand at any time of the day.,Reliability
+NFR_00267,The website shall continue to operate if the streaming server goes down.,Reliability
+NFR_00268,The website shall continue to operate if the payment gateway goes down.,Reliability
+NFR_00271,Izogn Administrator must be able to update the category listings on the website within 2 minutes.,Performance
+NFR_00272,Izogn Administrator must be able to add new products to the website within 2 minutes.,Performance
+NFR_00273,The system will provide a 24 hour 800 toll free number for support to its customers.,Reliability
+NFR_00274,The website will provide a help section with answers and solutions to common problems.,Usability
+NFR_00275,Velkat staff will be available for phone support between 7am-7pm M-F to provide technical support to the Izogn administrators.,Reliability
+NFR_00276,Only registered customers can purchase streaming movies.,Security
+NFR_00277,A customer can only stream a movie if they purchased it and are within the 2 day viewing period.,Security
+NFR_00278,Only authorized personnel can access customer records in the database.,Security
+NFR_00279,Only administrators can activate a pre-paid card.,Security
+NFR_00280,Only authorized personnel can access sales information.,Security
+NFR_00281,The website shall prevent its data from being corrupted when incorrect data is entered in.,Security
+NFR_00282,The website shall protect itself from intentional abuse and notify the administrator at all occurrences.,Security
+NFR_00283,Data integrity scripts will be run on a weekly basis to verify the integrity of the database.,Security
+NFR_00284,The website shall make its user aware of its information practices before collection data from them via a Privacy Policy accessible on all pages of the website.,Security
+NFR_00285,The system shall notify customers of changes to its information policy.,Security
+NFR_00286,The system shall reveal private information only in compliance with the organization s information policy.,Security
+NFR_00287,All customer information will be stored on a secure database accessible only to authorized personnel.,Security
+NFR_00288,All credit card information will be encrypted in the database.,Security
+NFR_00289,The streaming server will have anti-virus software to prevent infection of malicious viruses.,Security
+NFR_00290,The website should cater to all tribes in Nigeria.,Usability
+NFR_00291,The website shall not be offensive to religious or ethnic groups.,Usability
+NFR_00292,The website should appeal to all Africans not only Nigerians.,Usability
+NFR_00293,Total lead cycle time must be completed in 5 minutes for 90% of lead volume between the business hours of 8AM CST to 8PM CST; then 3 minutes for 99% of lead volume during off business hours.,Performance
+NFR_00294,No lead evaluation will complete in a time period longer than 25 seconds for 97% of all leads processed.,Performance
+NFR_00295,For leads that process longer than 25 seconds the system will record the event and duration,Performance
+NFR_00296,The process must fit within the processing time conditions set forth by the Auto Rep Assignment process in which a lead is assigned within 3 minutes of the total life cycle.,Performance
+NFR_00297,Defect reports will be available to technical units on a 24x7 basis.,Reliability
+NFR_00299,The product shall simulate the look of ships at sea.,Usability
+NFR_00300,The product shall display the grids within a circle as a view from a periscope.,Usability
+NFR_00301,The product shall display each type of ship in a grid using an image of the specific type of ship.,Usability
+NFR_00302,When the offensive player takes a shot the product shall simulate the sound of a ship at sea.,Usability
+NFR_00303,When a shot is marked as a miss the product shall simulate the sound of a shot missing its target.,Usability
+NFR_00304,When a shot is marked as a hit the product shall simulate the sound of a shot hitting its target.,Usability
+NFR_00305,When a ship is sunk the product shall simulate the sound of a sinking ship.,Usability
+NFR_00306,The product shall be available 24 hours per day seven days per week.,Reliability
+NFR_00307,The product shall able to handle a large number of games simultaneously.,Performance
+NFR_00308,The response time shall be fast enough to maintain the flow of the game. The response time shall be no more than 2 seconds for 95% of responses and no more than 4% for the remaining responses.,Performance
+NFR_00309,The product shall protect the identity of the players. The product shall provide players no access to information that might reveal the identity of another player.,Performance
+NFR_00310,The product shall be intuitive and self-explanatory. Nine out ten users shall be able to successfully complete a game with no training.,Usability
+NFR_00311,The product shall be available to players who understand English Spanish and French. The product shall allow the user to select the language upon accessing the product.,Usability
+NFR_00312,The product shall provide players no access to information that might reveal the identity of another player,Security
+NFR_00313,The system shall be easy to use by callers and supervisors. Callers and supervisors must be able to accomplish any system task within 2 minutes.,Usability
+NFR_00314,The system shall be easy to learn by callers and supervisors. Callers and supervisors shall learn how to use the system within 10 minutes.,Usability
+NFR_00315,The system shall be responsive. At the DePaul TeleServices Center when a supervisor uses the system to view a callers schedule the system response time must be no more than 2 seconds 90% of the time and no more than 5 seconds the rest of the time.,Performance
+NFR_00316,On a 56k connection the system response time for all operations must be no more than 6 seconds 90% of the time.,Performance
+NFR_00317,On a 112k connection or faster the system response time for all operations must be no more than 3 seconds 90% of the time.,Performance
+NFR_00318,The system shall have high availability every day of the year.The system must be available for use between 12,Reliability
+NFR_00319,The system must be available for use between 7,Reliability
+NFR_00321,The product shall ensure that only supervisors can advertise empty time slots.The product must ensure that supervisors are allowed to access advertise empty time slots.,Security
+NFR_00322,The product shall ensure that only supervisors can enter a caller s schedule.The product must ensure that supervisors are allowed to access advertise empty time slots.,Security
+NFR_00323,The product shall ensure that only supervisors can view schedule of all callers.The product must ensure that supervisors are allowed to access advertise empty time slots.,Security
+NFR_00324,The interface shall have a simple look. In the interface and usability survey 90% of beta testers must report that the interface is adequately simple.,Usability
+NFR_00325,The interface shall be appealing to callers and supervisors. In the interface and usability survey 80% of beta testers must report that the interface is appealing.,Usability
+NFR_00326,The product shall provide GUI based Monitoring Services.System Administrators shall monitor message exchanges will predict and determine problems and will also provide internal and external support.,Usability
+NFR_00327,The product shall comply with City of Chicago Application Development Guide Framework.Application Development Framework will provide structured Graphical User Interface.,Usability
+NFR_00328,The product shall provide Monitoring Services.The product shall be easy for System Administrators and DBAs to use after two weeks of usage.,Usability
+NFR_00329,The product shall provide Error Tracking Services.The product shall help the System Administrators and DBAs to resolve transaction errors 99% of the time.,Usability
+NFR_00330,The product shall provide Portals.The product shall help System Administrators to analyze the transactions with ad-hoc reporting and KPIs (Key Performance Indicators),Usability
+NFR_00331,The product shall provide Asynchronous Messaging.The product shall provide asynchronous messaging to enable parallel processing and reduce the overhead in communications,Performance
+NFR_00332,The product shall provide Multi-threading and Load Balancing.The product shall provide multi-threading technology as well as load balancing to overcome data load spikes and traffic.,Performance
+NFR_00333,The product shall process messages within 2 seconds.The product shall have a maximum message processing time of 2 seconds,Performance
+NFR_00334,The product shall poll the system for messages every second.The product shall poll the system for new messages at a maximum of every 1 second.,Performance
+NFR_00335,The product shall provide Dynamic Change Support and Transparent resource addition.The product shall support Transparent Resource addition and Dynamic Change support to provide scalability and avoid service interruptions of more than 1 day.,Performance
+NFR_00336,The product shall be available 99% of the time. Rationale,Reliability
+NFR_00337,The product shall be robust.The product shall have fault avoidance based on standards adoption.,Reliability
+NFR_00338,The product shall be robust with fault tolerance.The product shall have fault tolerance by using recovery technique compensatory transaction and routing around failures.,Reliability
+NFR_00342,The product shall have security.The product shall provide authentication and authorization.,Security
+NFR_00343,The product shall information Security. The product shall enable privacy by encryption WS-Security and Integrity Checking.,Security
+NFR_00344,The product shall have audit capabilities.The product shall store messages for a minimum of one year for audit and transaction tracking purposes.,Security
+NFR_00345,The system shall use IBM and CCR branding standards. The interface must have one IBM logo and one CCR logo.,Usability
+NFR_00346,The system shall be displayable on any work computer a CCR user may have. The system interface shall be formatted to display at 800 by 600 pixel resolution.,Usability
+NFR_00347,The system interface will use CCR nomenclature. The system must use the same nomenclature used in the existing WCS system and reports,Usability
+NFR_00348,The interface must summarize the data in a fashion that s appealing to CCR management. Every report type must have at least one high level summary shown in the results dashboard/interface,Usability
+NFR_00349,The system must use a point and click interface. 100% of all selection and navigation functionality must be able to be activated/selected by either a mouse or a keyboard,Usability
+NFR_00350,The interface shall be easy to use. 90% of users should be able to successfully use the system to generate a report on their first use. The interface should adhere to IBM usability standards.,Usability
+NFR_00351,Rreports must be easy to generate. eports must be generated within one button click and exported within one button click (after selecting the report),Usability
+NFR_00352,A user shall be able to use the system without instruction after a short amount of time. After one use a user should understand and remember 90% of the system usage and navigation.,Usability
+NFR_00353,All CCR users shall receive training before the WCS system is deployed. One training session will be held for 100% of CCR users before system deployment (based on a CCR user being available),Usability
+NFR_00354,The WCS system shall use appropriate nomenclature and terminology as defined by the Corporate Community Grants organization. All interfaces and reports will undergo usability tests by CCR users.,Usability
+NFR_00355,The WCS system shall be available at all times as long as IBM s internal intranet W3 is accessible. The WCS system will be available 95% of the time IBM s internal intranet W3 is available.,Reliability
+NFR_00358,The system shall only be accessed by authorized Corporate Community Grants (CCR) employees. Users must be authenticated using their IBM intranet user name and password.,Security
+NFR_00359,The WCS system shall not allow automatic logins by any user. Cookies containing WCS login information about a user will not be stored on a user s computer.,Security
+NFR_00360,Each team owner will need to use a username and password in order to be authenticated to reach the team owner s page,Security
+NFR_00361,The Commissioner will be the only authorized user per league to adjust league settings.,Security
+NFR_00362,Each page shall contain a navigation menu which shows the index into which the current page is contained.,Usability
+NFR_00363,Each page shall contain a similar format with action items in one location and navigation buttons in a different location.,Usability
+NFR_00364,The message board shall contain the 5 most recently posted messages on the league page. The messages will contain up to the first 150 characters of the message.,Usability
+NFR_00365,A new user shall be able to navigate through the league and team pages within 30 seconds of reaching the start-up page.,Usability
+NFR_00366,Users shall be able to reach the add drop and trade player pages with one click from the team owner s page.,Usability
+NFR_00367,Users shall be able to view at least 25 NFL player statistics and points on each page.,Usability
+NFR_00368,The application shall ask the user to confirm dropping a player or trading a player before performing the action.,Usability
+NFR_00369,The application shall be able to complete every user transaction within one fourth of a second of receiving the request over the network.,Performance
+NFR_00370,The application shall have a downtime of at most 10 minutes per year.,Reliability
+NFR_00371,The maximum wait time for a user navigating from one screen to another within the Disputes application shall be no more than 5 seconds.,Performance
+NFR_00372,The Disputes application shall support 350 concurrent users without any degradation of performance in the application.,Performance
+NFR_00373,The system shall achieve 95% up time.,Reliability
+NFR_00374,The system shall have a professional appearance,Usability
+NFR_00375,The product shall have a consistent color scheme and fonts.,Usability
+NFR_00376,The system shall be used by realtors with no training.,Usability
+NFR_00377,The system shall be intuitive and self explanatory.,Usability
+NFR_00378,The product shall be easy for a realtor to learn.,Usability
+NFR_00379,The product shall use symbols and words that are naturally understandable by the realtor community.,Usability
+NFR_00380,The product shall produce search results in an acceptable time,Performance
+NFR_00381,The search results shall be returned no later 30 seconds after the user has entered the search criteria,Performance
+NFR_00382,The product shall generate a CMA report in an acceptable time.,Performance
+NFR_00383,The CMA report shall be returned no later 60 seconds after the user has entered the CMA report criteria.,Performance
+NFR_00384,The product shall synchronize contacts and appointments in an acceptable time.,Performance
+NFR_00385,The product shall synchronize with the office system every hour.,Performance
+NFR_00386,The product shall be available for use 24 hours per day 365 days per year,Reliability
+NFR_00387,Out of 1000 accesses to the system the system is available 999 times.,Reliability
+NFR_00388,The product shall operate in offline mode whenever internet connection is unavailable.,Reliability
+NFR_00389,The product shall allow the user to view previously downloaded search results CMA reports and appointments.,Reliability
+NFR_00390,The product shall retain user preferences in the event of a failure.,Reliability
+NFR_00391,100% of saved user preferences shall be restored when system comes back online.,Reliability
+NFR_00392,The product shall be installed by an untrained realtor without recourse to separately-printed instructions.,Usability
+NFR_00393,90% of untrained realtors shall be able to install the product on their device without printed instructions,Usability
+NFR_00395,Only registered realtors shall be able to access the system.,Security
+NFR_00396,Every user of the system shall be authenticated and authorized.,Security
+NFR_00397,The product shall prevent its data from incorrect data being introduced.,Security
+NFR_00398,The system shall be easy to use by the Program Administrators/Nursing Staff Members.,Usability
+NFR_00399,All of the users shall be able to use the system after one day of training.,Usability
+NFR_00400,The system shall help the user avoid making mistakes while scheduling classes and clinicals for the nursing students.,Usability
+NFR_00401,The number of mistakes noted by the students shall be decreased by 50% in the first year.,Usability
+NFR_00402,The system shall be intuitive to the Program Administrators/Nursing Staff Members.,Usability
+NFR_00403,2 out of 3 Program Administrators/Nursing Staff Members shall successfully be able to use the system to manage the scheduling of classes and clinicals.,Usability
+NFR_00404,The system shall use symbols and words that are naturally understandable by the user community.,Usability
+NFR_00405,The verbiage used within the system shall be consistent with Standard English and the terminology of the national Nursing Community.,Usability
+NFR_00406,Staff members shall be able to complete a set of tasks in a timely manner.,Performance
+NFR_00407,The response time of general student management tasks shall take no longer than 5 seconds and the response time of schedule generation shall take no longer than 30 seconds.,Performance
+NFR_00408,The system shall be available for use between the hours of 8am and 6pm.,Reliability
+NFR_00409,Only authorized users shall have access to clinical site information.,Security
+NFR_00410,Program Administrators/Nursing Staff Members are the only people who shall have access to clinical site details.,Security
+NFR_00411,Only authorized users shall have access to students personal information.,Security
+NFR_00412,Dr Susan Poslusny and Dr Julie Donalek are the only people who shall have access to students personal information.,Security
+NFR_00413,Only authorized users shall have access to the portion of the system that interfaces with CampusConnect.,Security
+NFR_00414,Fit Criterion,Security
+NFR_00415,The system shall have basic data integrity checking to reduce the possibility of incorrect or invalid data being introduced.,Security
+NFR_00416,The system shall protect private information in accordance with the organization s information policy.,Security
+NFR_00417,The system shall be built such that it is as secure as possible from malicious interference.,Security
+NFR_00418,The system shall use the organization s standard virus protection software to help monitor threats to itself.,Security
+NFR_00421,The RFS system should be available 24/7 especially during the budgeting period. The RFS system shall be available 90% of the time all year and 98% during the budgeting period. 2% of the time the system will become available within 1 hour of the time that the situation is reported.,Reliability
+NFR_00424,Only authorized user shall access the RFS system. ONLY users that exist in the UAS system with the RFS system assigned to their role(s) shall access the RFS system and use it.,Security
+NFR_00425,User access should be limited to the permissions granted to their role(s) Each level in the PCG hierarchy will be assigned a role and users will be assigned to these roles. Access to functionality within RFS system is dependent on the privileges/permission assigned to the role..,Security
+NFR_00426,The product must comply with the intranet page standards and requirements of ENET Securities. 95% of the product look & feel will be approved by the Architecture group prior to implementation. The remaining 5% will be corrected and approved within one month of product release.,Usability
+NFR_00427,The intranet pages should display appropriately in all resolutions from 800x600 and higher. The display of all the pages will be correct in 95% of the resolutions prior to implementation. The remaining 5% will be corrected within a week of notification of the incorrect display.,Usability
+NFR_00428,The users should be able to easily use the system to successfully complete their budgets within the stipulated time for completion. With a week of training prior to product implementation 98% of the users shall complete their budgets within the stipulated time.,Usability
+NFR_00429,The product interface should be fast. The response time of the product interface should not exceed 2 seconds 90% of the time. For 10% of the time the response time should not be more than 10 seconds.not be more than 10 seconds.,Performance

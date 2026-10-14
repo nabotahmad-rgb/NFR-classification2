@@ -1,0 +1,14 @@
+\begin{tabular}{@{}lcccccc@{}}
+\toprule
+\textbf{Configuration} & \textbf{Accuracy} & \textbf{$\Delta$ vs full (pp)} & \textbf{$\chi^2$} & \textbf{$p$} & \textbf{Cohen's $d$} & \textbf{Effect}\\
+\midrule
+Full model & 96.22 $\pm$ 0.28 & --- & --- & --- & --- & ---\\
+MAGNET-NFR-no\_contrastive-distilroberta-base & 96.09 $\pm$ 0.46 & -0.13 & 0.54 & 0.462n.s. & 0.34 & small\\
+MAGNET-NFR-no\_gcn-distilroberta-base & 96.14 $\pm$ 1.08 & -0.08 & 0.18 & 0.674n.s. & 0.11 & negligible\\
+MAGNET-NFR-no\_meta-distilroberta-base & 96.30 $\pm$ 0.28 & +0.08 & 0.20 & 0.656n.s. & -0.30 & small\\
+MAGNET-NFR-no\_xl-distilroberta-base & 96.38 $\pm$ 0.23 & +0.16 & 0.78 & 0.378n.s. & -0.60 & medium\\
+MAGNET-NFR-roberta\_only-distilroberta-base & 96.32 $\pm$ 0.40 & +0.10 & 0.27 & 0.604n.s. & -0.28 & small\\
+NoRBERT-bert-base-uncased & 96.30 $\pm$ 0.23 & +0.08 & 0.14 & 0.712n.s. & -0.32 & small\\
+TFIDF-LinearSVC & 95.48 $\pm$ 0.21 & -0.74 & 9.54 & 0.002** & 2.95 & large\\
+\bottomrule
+\end{tabular}

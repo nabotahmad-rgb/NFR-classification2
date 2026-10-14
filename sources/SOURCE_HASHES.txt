@@ -1,0 +1,5 @@
+# SHA-256 of the upstream spreadsheets as used to build the released corpus.
+# Use these to check a copy obtained from the original record.
+
+37654c1bd4720bc44eb6f6f8110ae434dd5dc84494168ccaf28c05bb5654de17  Cornelius_FR_NFR_Curated_Mendeley_Dataset_2025.xlsx
+216e0debeada8cd3741ec3bf9c7cd23f6c68fa98087a1200fc772406bf2df3ec  dcai24_src_dataset.xlsx

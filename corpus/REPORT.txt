@@ -1,0 +1,30 @@
+corpus: 1667 records, 4 classes
+classes kept: ['Performance', 'Security', 'Usability', 'Reliability']
+dropped: ['Maintainability', 'Portability']
+majority floor: 78.13% (Security)
+splits: train 1166 val 250 test 251
+conflicting-label texts across sources: 1
+cv: 5-fold x 2 repeats
+
+distribution:
+label
+Security       1343
+Usability       150
+Performance     106
+Reliability      68
+
+test-set support:
+label
+Security       202
+Usability       23
+Performance     16
+Reliability     10
+
+per-source:
+                                   source             sheet     text_col      label_col  raw_rows  nfr_rows  functional_dropped  unmapped_dropped
+0  Cornelius_FR_NFR_Curated_Mendeley_Data  Complete_Dataset  Description   NFR_Category      1145       406                  17                 0
+1                      dcai24_src_dataset            Sheet1  Requirement  Specific_Type      3482      2024                 653               372
+
+cross-source overlap:
+  Cornelius_FR_NFR_Curated_Mendeley_Data in dcai24_src_dataset: 0/65 (0.0%)
+  dcai24_src_dataset in Cornelius_FR_NFR_Curated_Mendeley_Data: 0/1654 (0.0%)

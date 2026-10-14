@@ -1,0 +1,55 @@
+{
+  "n": 1719,
+  "class_counts": {
+    "Security": 1343,
+    "Usability": 150,
+    "Performance": 106,
+    "Reliability": 68,
+    "Maintainability": 34,
+    "Portability": 18
+  },
+  "majority_floor": 0.7812681791739383,
+  "summary": [
+    {
+      "configuration": "Encoder-only",
+      "accuracy_mean": 0.942524723676556,
+      "accuracy_sd": 0.0034268008086150055,
+      "macro_f1_mean": 0.803792538929925,
+      "macro_f1_sd": 0.00878493701056152,
+      "n_repeats": 5
+    },
+    {
+      "configuration": "Full",
+      "accuracy_mean": 0.9498545666084933,
+      "accuracy_sd": 0.0025156193496730585,
+      "macro_f1_mean": 0.8285798450253958,
+      "macro_f1_sd": 0.011302229932684999,
+      "n_repeats": 5
+    },
+    {
+      "configuration": "TF-IDF + LinearSVC",
+      "accuracy_mean": 0.9392670157068063,
+      "accuracy_sd": 0.003148893217620573,
+      "macro_f1_mean": 0.7680948304347075,
+      "macro_f1_sd": 0.023067079163719844,
+      "n_repeats": 5
+    }
+  ],
+  "bootstrap": {
+    "estimand": "Full minus Encoder-only macro F1, averaged across five repeated-CV prediction sets",
+    "point": 0.024787306095470772,
+    "ci95": [
+      0.004408454712580162,
+      0.04692714032585545
+    ],
+    "ci90": [
+      0.00785724245977343,
+      0.04369561236657338
+    ],
+    "two_sided_bootstrap_p": 0.016,
+    "B": 4000,
+    "resampling_unit": "record",
+    "inference_boundary": "conditional on the fixed six-class corpus and OOF predictions; not population-iid inference",
+    "equivalent_within_0.01_90ci": false
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "no_gcn": {
+    "repeat_full": [
+      0.8169684877125954,
+      0.8330026419676573,
+      0.8436305411630949,
+      0.8176079387426213,
+      0.8316896155410102
+    ],
+    "repeat_ablation": [
+      0.8042168607029277,
+      0.8197892855744388,
+      0.7963473404890798,
+      0.799394792912668,
+      0.8106310697027902
+    ],
+    "bootstrap_seed": 20260916,
+    "bootstrap_n": 4000,
+    "estimand": "mean across five repeat-pooled macro-F1 differences; Full minus ablation",
+    "resampling_unit": "record/item_id, same sampled positions carried across all repeats/models"
+  },
+  "no_xl": {
+    "repeat_full": [
+      0.8169684877125954,
+      0.8330026419676573,
+      0.8436305411630949,
+      0.8176079387426213,
+      0.8316896155410102
+    ],
+    "repeat_ablation": [
+      0.8142501679801003,
+      0.8176953742040007,
+      0.8240514646490132,
+      0.8133152497198117,
+      0.8263374336037371
+    ],
+    "bootstrap_seed": 20260916,
+    "bootstrap_n": 4000,
+    "estimand": "mean across five repeat-pooled macro-F1 differences; Full minus ablation",
+    "resampling_unit": "record/item_id, same sampled positions carried across all repeats/models"
+  },
+  "no_contrastive": {
+    "repeat_full": [
+      0.8169684877125954,
+      0.8330026419676573,
+      0.8436305411630949,
+      0.8176079387426213,
+      0.8316896155410102
+    ],
+    "repeat_ablation": [
+      0.8078070586272079,
+      0.8034366881129777,
+      0.8076546416001517,
+      0.8154260158591148,
+      0.8048642507607723
+    ],
+    "bootstrap_seed": 20260916,
+    "bootstrap_n": 4000,
+    "estimand": "mean across five repeat-pooled macro-F1 differences; Full minus ablation",
+    "resampling_unit": "record/item_id, same sampled positions carried across all repeats/models"
+  },
+  "no_meta": {
+    "repeat_full": [
+      0.8169684877125954,
+      0.8330026419676573,
+      0.8436305411630949,
+      0.8176079387426213,
+      0.8316896155410102
+    ],
+    "repeat_ablation": [
+      0.8116363428856382,
+      0.8192270953005846,
+      0.8245001430536503,
+      0.7900765998474751,
+      0.8252142167666922
+    ],
+    "bootstrap_seed": 20260916,
+    "bootstrap_n": 4000,
+    "estimand": "mean across five repeat-pooled macro-F1 differences; Full minus ablation",
+    "resampling_unit": "record/item_id, same sampled positions carried across all repeats/models"
+  }
+}

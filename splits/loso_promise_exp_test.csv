@@ -1,0 +1,166 @@
+item_id,text,label
+NFR_00430,The product shall be intuitive and self-explanatory. 90% of new users shall be able to start the display of Events or Activities within 90 minutes of using the product.,Usability
+NFR_00431,The look and feel of the system shall conform to the user interface standards of the smart device.,Usability
+NFR_00432,The user interface shall have standard menus buttons for navigation,Usability
+NFR_00433,Only authorized users shall have access to students\92 personal information.,Security
+NFR_00434,Dr Susan Poslusny and Dr Julie Donalek are the only people who shall have access to students\92 personal information.,Security
+NFR_00435,Fit Criterion: Dr Susan Poslusny and Karen Sysol are the only people who shall have access to the final class section scheduling for the system that interfaces with CampusConnect.,Security
+NFR_00436,The system shall protect private information in accordance with the organization\92s information policy.,Security
+NFR_00437,The system shall use the organization\92s standard virus protection software to help monitor threats to itself.,Security
+NFR_00438,The Disputes application shall comply with the corporate standards for user interface creation for internally and externally used applications.,Usability
+NFR_00439,All screens created as part of the Disputes application must comply with corporate standards for interface creation.,Usability
+NFR_00440,The list of dispute cases that are displayed after a search is performed must be color coded for easy identification of dispute cases based upon the dispute case status.,Usability
+NFR_00441,100% of the cardmember and merchant services representatives shall use the Disputes application regularly after a 2-day training course.,Usability
+NFR_00442,100% of cardmember services representatives shall be able to successfully create a dispute case on the first encounter after completing the training course.,Usability
+NFR_00443,100% of merchant services representatives shall be able to successfully perform a follow up action on a dispute case on the first encounter after completing the training course.,Usability
+NFR_00444,The Disputes application shall ensure that only users with the appropriate access level are allowed to initiate dispute requests.,Security
+NFR_00445,Only users with Update access must be able to initiate dispute requests.,Security
+NFR_00446,The Disputes application shall ensure that only authorized users are allowed to logon to the application.,Security
+NFR_00447,All authorized users once authenticated must be able to logon to the Disputes System,Security
+NFR_00448,The Disputes System shall generate a User Report that details any new users that have been added and any changes to an existing user\92s access level. The report will be reviewed for auditing purposes.,Security
+NFR_00449,All additions of new users and modifications to user\92s access shall be recorded on the User Report.,Security
+NFR_00450,If a user account is revoked it can only be re-instantiated by the System Administrator.,Security
+NFR_00451,Only the System Administrator shall be able to reset a revoked user logon account,Security
+NFR_00452,The Disputes application shall manipulate and view business data. Users will not have direct access to data files or databases.,Security
+NFR_00453,All updates to data files or database must be initiated from the Disputes System.,Security
+NFR_00454,The product\92s Look and Feel shall be able to incorporate aspects of the customer\92s organization such as logo branding and identity,Usability
+NFR_00455,The response shall be fast enough to avoid interrupting the user\92s flow of thought. 90% of tasks shall complete within 5 seconds. 98% of tasks shall complete within 8 seconds.,Performance
+NFR_00457,Every registered user will have access to the product\92s support site via the Internet. 70% of registered users shall find a solution to their problem within 5 minutes of using the support site.,Usability
+NFR_00459,The product shall be translated into foreign languages other than the target market countries\92 languages in future releases. For each emerging target market it shall take no more than 5 days to configure the product for that market\92s language.,Usability
+NFR_00460,The product shall ensure that the database\92s data corresponds to the data entered by the user. Each conference room reservation in the system will contain the same information as was entered by the user.,Security
+NFR_00461,The product shall prevent the input of malicious data. The product and/or adjacent hardware/software systems\92 data shall remain 100% uncorrupted each time malicious data is input into the product.,Security
+NFR_00462,The product shall be able to display calendar dates and times according to the user\92s locale. 90% of survey respondents from each target market country will find that the date and time formatting of the product is correct.,Usability
+NFR_00463,System shall let customers register on the website as a \93pay as you go\94 user in under 5 minutes.,Performance
+NFR_00464,System shall let customers register on the website as a \93unlimited movie subscriber\94 user in under 10 minutes.,Performance
+NFR_00465,The product shall retain the customer\92s buying preferences and information.,Usability
+NFR_00466,When streaming a movie the buffering time should take no longer than 10 seconds (plus any latency on the user\92s connection.),Performance
+NFR_00467,While streaming a movie buffering should only occur if there is latency in the user\92s connection.,Performance
+NFR_00468,The system shall reveal private information only in compliance with the organization\92s information policy.,Security
+NFR_00469,The system shall have high availability every day of the year.The system must be available for use between 12:00AM and 6:00PM all days of the year.,Reliability
+NFR_00470,The system must be available for use between 7:00AM and 11:59PM all days of the year.,Reliability
+NFR_00471,The product shall ensure that only supervisors can enter a caller\92s schedule.The product must ensure that supervisors are allowed to access advertise empty time slots.,Security
+NFR_00472,The product shall be available 99% of the time. Rationale: To avoid service interruption during busiest customer service response periods. The product shall be available 99.99% of the time for regular business days.,Reliability
+NFR_00473,The interface must summarize the data in a fashion that\92s appealing to CCR management. Every report type must have at least one high level summary shown in the results dashboard/interface,Usability
+NFR_00474,Reports must be easy to generate. Reports must be generated within one button click and exported within one button click (after selecting the report),Usability
+NFR_00475,The WCS system shall be available at all times as long as IBM\92s internal intranet W3 is accessible. The WCS system will be available 95% of the time IBM\92s internal intranet W3 is available.,Reliability
+NFR_00476,The WCS system shall not allow automatic logins by any user. Cookies containing WCS login information about a user will not be stored on a user\92s computer.,Security
+NFR_00477,Each team owner will need to use a username and password in order to be authenticated to reach the team owner\92s page,Security
+NFR_00478,Users shall be able to reach the \91add\92 \91drop\92 and \91trade player\92 pages with one click from the team owner\92s page.,Usability
+NFR_00480,The system shall use a text-based interface to display a listing of available mail.,Usability
+NFR_00481,The system shall have a help system that offers tips and explanation for each screen and each item on the screens upon demand.,Usability
+NFR_00482,The system must be easy to use by both managers and chefs such that they do not need to read an extensive amount of manuals.,Usability
+NFR_00483,The system must be quickly accessible by both managers and chefs.,Usability
+NFR_00484,The system must be intuitive and simple in the way it displays all relevant data and relationships.,Usability
+NFR_00485,The menus of the system must be easily navigable by the users with buttons that are easy to understand.,Usability
+NFR_00486,All the functions of the system must be available to the user every time the system is turned on.,Reliability
+NFR_00487,All Web pages generated by the system shall be fully downloadable in no more than 10 seconds over a 40KBps modem connection.,Performance
+NFR_00488,Responses to queries shall take no longer than 7 seconds to load onto the screen after the user submits the query.,Performance
+NFR_00489,The system shall display confirmation messages to users within 4 seconds after the user submits information to the system.,Performance
+NFR_00490,All network transactions that involve financial information or personally identifiable information shall be encrypted.,Security
+NFR_00491,Patrons shall log in according to the restricted computer system access policy.,Security
+NFR_00492,Only users who have been authorized for home access to the corporate Intranet may use the COS from non-company locations.,Security
+NFR_00493,Programmers and application developers will have access to source code to address bugs or system enhancements as deemed necessary. Network Administrator and DBA support is also required to maintain a 24x7 system uptime.,Reliability
+NFR_00494,System security and access levels are provided in the online system. There are varying levels of system access and functional authority. Each student’s access is limited to his/her own registration records. Only authorized system administrator(s) has access to all student registration records.,Security
+NFR_00495,95% of users will not need to read the user manual to be able to use the application.,Usability
+NFR_00497,The application should be connected to the Internet.,Reliability
+NFR_00498,The application should be connected to the GPS device.,Reliability
+NFR_00502,The system shall show a tabbed display (or equivalent functionality) with the campus map on one tab and info on the most recently announced building on the other.,Usability
+NFR_00503,The system shall allow the user to scroll the campus map from the campus map tab.,Usability
+NFR_00504,The campus map shall provide visual clues regarding what areas have prepared audio and therefore may be selected.,Usability
+NFR_00505,The campus map shall have a pause/resume button. The pause and resume button will allow the user to scroll and select other buildings without being interrupted by the automatic search and announce feature.,Usability
+NFR_00506,The system shall provide a way to return to the startup screen.,Usability
+NFR_00507,The system should use the company colors and logos.,Usability
+NFR_00508,The system shall be capable of restoring itself to its previous state in the event of failure (e.g. a system crash or power loss).,Reliability
+NFR_00509,The system shall be able to display a menu at all times to facilitate manual order taking should the need arise.,Usability
+NFR_00510,The system shall flag tablets that fail to send timely keep-alive messages as non-operational and disassociate the assigned waiter from the tablet.,Reliability
+NFR_00511,A waiter password used for tablet login must have a bit-strength of at least 64 bits.,Security
+NFR_00512,A waiter password used for tablet login must be changed every three months.,Security
+NFR_00513,A waiter shall only be able to log into one tablet at any given instance of time.,Security
+NFR_00514,A waiter that attempts to log into a second tablet while already logged into another tablet shall be rejected and notified through both tablets.,Security
+NFR_00515,A display shall not require a user to log in.,Security
+NFR_00516,A surface computer shall not require a user to log in.,Security
+NFR_00517,A tablet shall require a user to log in using a username and password.,Security
+NFR_00520,Responses to view information shall take no longer than 5 seconds to appear on the screen.,Performance
+NFR_00521,The system shall accommodate large data items without fault.,Reliability
+NFR_00522,System will use secured database.,Security
+NFR_00523,Unauthorised users can only read data without modifying anything.,Security
+NFR_00524,ABS shall handle all expected and unexpected errors in ways that prevent loss in information and long downtime period.,Reliability
+NFR_00525,Information transmission should be securely transmitted to server without any changes in information.,Security
+NFR_00526,Be intuitive even to first time users,Usability
+NFR_00527,All transactions at the Flea Market require a valid user ID and password.,Security
+NFR_00528,Secure data transfer over the Internet could be provided using SSL encryption that will be configured by the host system administrator.,Security
+NFR_00529,The IP addresses where the transaction was made from will be logged.,Security
+NFR_00530,User passwords will be stored in the database in an encrypted format.,Security
+NFR_00532,The application must log the user out when it is exited.,Security
+NFR_00533,A correct combination of username and password is required for a user to login.,Security
+NFR_00534,It should give a drill-down view of all data in the medical record after logging in.,Usability
+NFR_00535,Logout must be automatic after 1 hour of inactivity.,Security
+NFR_00536,Full data backups must be created daily.,Security
+NFR_00537,Each account must securely store all of its data.,Security
+NFR_00538,The website is available whenever the users want to use it.,Reliability
+NFR_00539,The system use SSL (secured socket layer) in all transactions that include any confidential customer information.,Security
+NFR_00540,The system must automatically log out all customers after a period of inactivity.,Security
+NFR_00541,The system should not leave any cookies on the customer’s computer containing the user’s password.,Security
+NFR_00542,The system’s back-end servers shall only be accessible to authenticated administrators.,Security
+NFR_00543,Sensitive data will be encrypted before being sent over insecure connections like the internet.,Security
+NFR_00544,The reliability of the overall program depends on the reliability of the separate components. The main pillar of reliability of the system is the backup of the database which is continuously maintained and updated to reflect the most recent changes.,Reliability
+NFR_00546,The logo and the current basic design of registration system should be displayed. The system should be attractive according to the clients. The design and the color should make users feel comfortable when using the system instead of flashing useless colors on the screen. The design should also reflect the seriousness of the environment.,Usability
+NFR_00548,The system should need to be entirely self-supporting since the users would be using it only to register courses.,Usability
+NFR_00550,Everyone (stakeholders and guests) can have access to the system and the catalogue. Every client must have secure and private access to his/her data. The and the service man can have access to every part of the system. All these accesses (except the “guest tour” access) require identification through ID and password.,Security
+NFR_00551,The system will develop a security system that will reduce to the minimum the possibility of corruption from systems and/or humans.,Security
+NFR_00552,The Operational Interface shall have a Mean Time Between Failures of no less than 7 days.,Reliability
+NFR_00553,The system shall be available 99.5% of the time.,Reliability
+NFR_00554,The software system needs a robust security mechanism in place so that unauthorized users are not allowed access to parts of the system.,Security
+NFR_00555,Each user shall either be trusted or not trusted.,Security
+NFR_00559,High level of performance requires high speed network and high level of connectivity.,Performance
+NFR_00560,Every user of the software is provided a unique login ID and a password which is stored in the database hashed by SHA2 algorithm.,Security
+NFR_00561,The software is available for use from the supermarket opening time to the closing time.,Reliability
+NFR_00562,The system shall accommodate high number of items and users without any fault.,Reliability
+NFR_00563,System use shall not cause any harm to human users.,Security
+NFR_00564,Normal users can just read information but they cannot edit or modify anything except their personal and some other information.,Security
+NFR_00565,System will have different types of users and every user has access constraints.,Security
+NFR_00566,Customers must have a valid login id to enter into the site.,Security
+NFR_00567,The system is expected to have reasonable short time response. The voter should be able to login and should be able to get response for his requests in 2-3 seconds.,Performance
+NFR_00568,The data transaction between client and server must be encrypted using SSL technology.,Security
+NFR_00569,All the passwords that are generated or accepted must be stored in database in an encrypted form.,Security
+NFR_00570,To prevent attacks the system should generate random word and ask the user to enter it correctly for multiple tryings.,Security
+NFR_00571,The system should warn ECA users about the malfunction of the system.,Reliability
+NFR_00572,The system should be simple to use,Usability
+NFR_00573,All users of the system shall login using some form of unique identification.,Security
+NFR_00574,All login attempts shall be done so in a secure manner.,Security
+NFR_00575,The web application shall add no more than 5 seconds of perceivable overhead time to any necessary web and database transaction time.,Performance
+NFR_00576,The system shall utilize HTTPS communication to ensure data confidentiality.,Security
+NFR_00577,User authentication and privileges are defined outside the scope of the sytem by the Microsoft Active Directroy Server.,Security
+NFR_00578,Personal information security is defined outside the scope of the SDMS by the database server.,Security
+NFR_00579,Users shall be required to log into the system for all operations except the operations on the login page.,Security
+NFR_00582,The system shall provide a uniform look and feel between all the web pages.,Usability
+NFR_00583,The system shall provide a digital image for each product in the product catalog.,Usability
+NFR_00584,The system shall provide use of icons and toolbars.,Usability
+NFR_00585,The system shall provide handicap access.,Usability
+NFR_00586,The system shall provide multi language support.,Usability
+NFR_00587,The system shall provide a contractual agreement with an internet service provider for T3 access with 99.9999% availability.,Reliability
+NFR_00588,The system shall provide a contractual agreement with an internet service provider who can provide 99.999% availability through their network facilities onto the internet.,Reliability
+NFR_00589,The product shall take initial load time depending on internet connection strength which also depends on the media from which the product is run.,Performance
+NFR_00590,The performance shall depend upon hardware components of the client/customer.,Performance
+NFR_00591,The system shall use secure sockets in all transactions that include any confidential customer information.,Security
+NFR_00592,The system shall automatically log out all customers after a period of inactivity.,Security
+NFR_00593,The system shall confirm all transactions with the customer’s web browser.,Usability
+NFR_00594,The system shall not leave any cookies on the customer’s computer containing the user’s password.,Security
+NFR_00595,The system shall not leave any cookies on the customer’s computer containing any of the user’s confidential information.,Security
+NFR_00596,The customer’s web browser shall never display a customer’s password. It shall always be echoed with special characters representing typed characters.,Security
+NFR_00597,The customer’s web browser shall never display a customer’s credit card number after retrieving from the database. It shall always be shown with just the last 4 digits of the credit card number.,Security
+NFR_00598,The system’s back-end servers shall never display a customer’s password. The customer’s password may be reset but never shown.,Security
+NFR_00599,The system’s back-end databases shall be encrypted.,Security
+NFR_00600,The system will use a single password per user to login to the E-Store System.,Security
+NFR_00601,The system shall use secure socket layer (SSL) technology to ensure all payments made online and user logins are secure.,Security
+NFR_00602,Any page of the application should not take more than 6 seconds to load on a DSL broadband connection.,Performance
+NFR_00603,The system may be throttled or slowed down on heavy loads to ensure service for everybody. By throttling is meant that certain functionality may be unavailable during heavy server load.,Performance
+NFR_00604,The application should be able to support 100 concurrent users without any performance degradation.,Performance
+NFR_00605,The MTBF (if any) should not be less than 2 months.,Reliability
+NFR_00606,A secure server will be required to ensure confidentiality of customer’s credit card and other details.,Security
+NFR_00607,The user interface of the system should be very user friendly.,Usability
+NFR_00608,It should not take more than 120 seconds for a new user to register for an account.,Usability
+NFR_00609,It should not take more than 90 seconds for a registered user to place an order.,Usability
+NFR_00612,The entire website must be user-friendly and easily navigable. The website must be provided with a site map for quick access to a particular link according to the requirement specification. The user must be able to find what he/she wants from the site without any difficulty. The website must adhere to branding schemes and the layout of the web pages must be uniform throughout,Usability
+NFR_00613,The system shall support up to 10000 simultaneous users against the central database at any given time and up to 5000 simultaneous users against the local servers at any one time. The performance of the website must be optimal incase of huge loads and hence appropriate load balancing must be done to achieve this. There can be any number of mirror servers readily available in case of huge loads without the user getting any delay.,Performance
+NFR_00614,The website must provide highest degree of security to the registered users. All the transactions that are made must be secured. The sensitive information passed to and from the website must be secured. Identity theft and other security related issues must be solved. Unauthorized transmission of sensitive information of the user to third party websites for reference must be avoided. On the basis of user agreement the information must be processed. All the information about the registered user must be securely stored in the central database.,Security

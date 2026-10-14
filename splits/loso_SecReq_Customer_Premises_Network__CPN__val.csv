@@ -1,0 +1,247 @@
+item_id,text,label
+NFR_00307,The product shall able to handle a large number of games simultaneously.,Performance
+NFR_00238,System shall let customers register on the website as a pay as you go user in under 5 minutes.,Performance
+NFR_00232,Recreation of Inventory Quantity Adjustment for the period of previous 30 days shall take no more than 30min.,Performance
+NFR_00309,The product shall protect the identity of the players. The product shall provide players no access to information that might reveal the identity of another player.,Performance
+NFR_00194,The preferred repair facility ratings shall be saved within 5 seconds. The save shall occur within 5 seconds.,Performance
+NFR_00520,Responses to view information shall take no longer than 5 seconds to appear on the screen.,Performance
+NFR_00236,Administrator shall be able to activate a pre-paid card via the Administration section in under 5 seconds.,Performance
+NFR_00467,While streaming a movie buffering should only occur if there is latency in the user\92s connection.,Performance
+NFR_00272,Izogn Administrator must be able to add new products to the website within 2 minutes.,Performance
+NFR_00315,The system shall be responsive. At the DePaul TeleServices Center when a supervisor uses the system to view a callers schedule the system response time must be no more than 2 seconds 90% of the time and no more than 5 seconds the rest of the time.,Performance
+NFR_00003,The system shall respond to user requests within 2 seconds,Performance
+NFR_00489,The system shall display confirmation messages to users within 4 seconds after the user submits information to the system.,Performance
+NFR_00019,The system shall support up to 1000 concurrent users,Performance
+NFR_00018,The system shall support up to 5000 concurrent users,Performance
+NFR_00390,The product shall retain user preferences in the event of a failure.,Reliability
+NFR_00408,The system shall be available for use between the hours of 8am and 6pm.,Reliability
+NFR_00469,The system shall have high availability every day of the year.The system must be available for use between 12:00AM and 6:00PM all days of the year.,Reliability
+NFR_00475,The WCS system shall be available at all times as long as IBM\92s internal intranet W3 is accessible. The WCS system will be available 95% of the time IBM\92s internal intranet W3 is available.,Reliability
+NFR_00389,The product shall allow the user to view previously downloaded search results CMA reports and appointments.,Reliability
+NFR_00273,The system will provide a 24 hour 800 toll free number for support to its customers.,Reliability
+NFR_00264,The website shall be available for use 24 hours per day 365 days per year.,Reliability
+NFR_00052,The system shall have 95% uptime availability,Reliability
+NFR_00561,The software is available for use from the supermarket opening time to the closing time.,Reliability
+NFR_00044,The system shall recover from failures within 30 minutes,Reliability
+NFR_01520,b) securely de-identifying the PHI it contains; or,Security
+NFR_01643,User authentication schemes (and other security mechanisms that users are exposed to) must not become a barrier to deployment and use.,Security
+NFR_01486,"Termination of user access privileges will also include termination of digital signatures (see ""Security Requirement 79 Providing Digital Signatures for Users"").",Security
+NFR_00817,The recipient shall call the sender by phone for further confirmation and provide the sender with the MD5 hash of the whole list.,Security
+NFR_01433,An essential step in mitigating risks associated with information systems such as the EHRi is to perform a threat and risk assessment.,Security
+NFR_01587,Organisations hosting components of the EHRi must securely control access to diagnostic ports and services on networks hosting those components.,Security
+NFR_01120,The capacity of the authorized entities should depend on the security policies defined by the service providers managing the CNG.,Security
+NFR_01519,a) physically protecting the media in accordance with Security Requirement 18;,Security
+NFR_00806,NPAC SMS shall ensure that all the notifications are sent in the confirmed mode.,Security
+NFR_00917,"The RLCS software shall display information about active overrides: Which are active, and which devices have no currently active 'rules protection' against erroneous opening/closing.",Security
+NFR_01213,The card issuer and the merchant acquirer also authenticate the transaction when they receive it,Security
+NFR_00843,"Finally, no data remains from data that have been selected to be securely deleted should be left in the storing area of the computer system after the end of the procedure of secure deletion (described in previous chapter), in case of selection of this feature.",Security
+NFR_01397,"The goal for healthcare organisations is to have PHI that is sufficiently accurate, complete and up-to-date to minimize the possibility that inappropriate PHI may be used to make a decision about a patient or person.",Security
+NFR_01293,Another user based authorization is for a tele-monitor device or robotic access to an EHR-S for prescribed directions and other input.,Security
+NFR_00525,Information transmission should be securely transmitted to server without any changes in information.,Security
+NFR_00162,The system must determine if a user is authorized to access a restricted Web page.,Security
+NFR_00952,"The system shall guarantee atomic database transactions to ensure maximum data integrity, using standard .NET transaction management capabilities.",Security
+NFR_01149,Each Trusted Framework present on the card shall Check the application access rules of the inter-acting Applications according to their respective privileges,Security
+NFR_01196,The card issuer needs to ensure that the load acquirer is guaranteeing payment for the electronic value and that the card is authentic.,Security
+NFR_00889,"The system have only three roles for coordinators, suppliers and customers only that make our system secure access online and these authentications will prevent and illegal access.",Security
+NFR_00679,NPAC SMS shall default the password expiration notification time period to seven days,Security
+NFR_01480,All organisations hosting components of the EHRi or connecting to the EHRi must obtain a signed confidentiality agreement from each permanent or temporary staff member or contractor who is a registered user of a POS connected to the EHRi or who has access to hosted components of the EHRi as part of his or her initial terms and conditions of employment.,Security
+NFR_00923,"Any operator or system command, which changes the state of field control devices, must be checked for integrity at multiple levels in the RLCS.",Security
+NFR_00998,Each user shall be required to log on with a unique user name and password before using the system.,Security
+NFR_00568,The data transaction between client and server must be encrypted using SSL technology.,Security
+NFR_01514,"Security Requirement 30 Securely Backing Up Data All organisations hosting components of the EHRi must back up PHI and security critical system data in a manner that ensures the confidentiality, integrity, and availability of the data ; and b) store the backed-up data in a physically secure environment off-site (see section 5.7).",Security
+NFR_01114,On detection of any system failure or discontinuity not specifically handled by other mechanisms the CNG shall revert to a known safe state.,Security
+NFR_00124,The system must provide the ability to use secure registry services and directories.,Security
+NFR_01024,Ability for the user to establish TLS encryption with other businesses or customers.,Security
+NFR_01346,"The software used to install and update the system, independent of the mode or method of conveyance, shall be certified free of malevolent software ('malware').",Security
+NFR_00760,NPAC SMS shall record actual or attempted logins in audit logs after an NPACâ€‘tunable parameter threshold of consecutive login failures.,Security
+NFR_01023,Ability for the user to encrypt outbound e-mail.,Security
+NFR_01271,6) The system shall provide the ability to uniquely identify a patient and tie the record to a single patient.,Security
+NFR_00095,The system must protect user identities from other users.,Security
+NFR_01254,The terminal must participate in a two-way authentication process with the card,Security
+NFR_01608,"The EHRi and all POS systems connected to the EHRi must include, wherever feasible, measures to safeguard against user error by validating data input to ensure that it is correct and appropriate.",Security
+NFR_01042,"The System shall comply with ESPC (DoC/NOAA/NESDIS) procedures and policies as stated in the NOAA IT Security Manual 212-1300, Version 3.3, dated May 15, 2007.",Security
+NFR_01385,"Organisations connecting to the EHRi and organisations hosting components of the EHRi must not, as a condition of the supply of a service, require a patient or person to consent to the collection, use or disclosure of PHI beyond that required to fulfill the explicitly specified and legitimate purposes.",Security
+NFR_01555,5)detect unauthorized activities; and,Security
+NFR_00999,The password does not need to be unique.,Security
+NFR_01318,5) The system should conform to function IN.1.5 (Non- Repudiation).,Security
+NFR_01399,"In addition, it is of critical importance for patient safety and a number of other reasons, including the overall success of the EHRS, that EHRi users accurately identify patients or persons prior to accessing or modifying their PHI.",Security
+NFR_01307,"Non-repudiation is a way to guarantee that the source of data or record can not later deny that fact, that the sender of a message cannot later deny having sent the message, and that the recipient cannot deny having received the message.",Security
+NFR_00696,NPAC SMS shall default the number of allowable incorrect login attempts to 3.,Security
+NFR_00825,NPAC SMS shall change the key used between the NPAC SMS and Service Provider after one year of usage.,Security
+NFR_01585,Organisations hosting components of the EHRi must ensure that all EHRi connections to remote servers and applications are authenticated.,Security
+NFR_00615,The System must allow the user to limit access to cases to specified users or user groups.,Security
+NFR_01559,"the accurate capture of a userâ€™s enduring professional credentials (e.g.: Dr. Joan Smith, Cardiologist) possibly and possibly job title (e.g.: Susan Jones, Medical Receptionist); and",Security
+NFR_00550,Everyone (stakeholders and guests) can have access to the system and the catalogue. Every client must have secure and private access to his/her data. The and the service man can have access to every part of the system. All these accesses (except the “guest tour” access) require identification through ID and password.,Security
+NFR_01339,The system shall prevent modifications to the audit records.,Security
+NFR_00694,NPAC SMS shall default the Non-use Disconnect tunable parameter to 60 minutes.,Security
+NFR_01582,"As noted above, discretionary access control does not ï¿½trumpï¿½ role based access control.",Security
+NFR_01212,The PSAM authenticates that the purchase transaction being canceled was performed by the PSAM and that the transaction being canceled is part of the active batch,Security
+NFR_00629,The system shall encrypt all customer data in database.,Security
+NFR_01147,"""Secure memory management shall ensure that The memory recovery process is secure and consistent in case of a loss of power or withdrawal of the card from the card reader while an operation is in progress,""",Security
+NFR_00653,NPAC SMS shall have for every process running an associated userId of the invoking user (or the userId associated with the invoking process).,Security
+NFR_00957,The system shall be capable of authorizing access to Pontis functionalities depending on the userâ€™s privileges during log-in process.,Security
+NFR_00650,NPAC SMS shall require unique user identification codes (userids) to identify all NPAC and Service Provider personnel.,Security
+NFR_01612,"Finally, digital signatures play an important role in providing so-called ""security assertions"" ï¿½reliable attestations that a given user or system has a given attribute.",Security
+NFR_00703,"NPAC SMS shall provide a mechanism to restrict user login based on time-of-day, dayâ€‘ofâ€‘week, and calendar date.",Security
+NFR_01427,"-privacy, security and business continuity risks must be re-analysed when significant changes are made to the components of the EHRi that the organisation is hosting (see section 5.2).",Security
+NFR_01161,"""When applicable a Security Domain shall Provide cryptographic protection services for its own Applications during their personalization and optionally during their subsequent operation,""",Security
+NFR_01319,6) The system shall conform to function IN.1.6 (Secure DataExchange).,Security
+NFR_00985,A few authorized individuals may be allowed access to parts of the system that are usually considered restricted.,Security
+NFR_00528,Secure data transfer over the Internet could be provided using SSL encryption that will be configured by the host system administrator.,Security
+NFR_01174,When present services to encrypt and decrypt any pattern of data using these algorithms shall be available to Applications.,Security
+NFR_01093,The CAUI shall enable administrators to manage security group members.,Security
+NFR_00027,User authentication shall require JWT,Security
+NFR_00642,In that way all users can have relevant access to the sys- tem and get updated information from the wind power plants.,Security
+NFR_00082,The system must encrypt and decrypt data that is exchanged over a non-secure link.,Security
+NFR_00746,"NPAC SMS shall generate a security audit log that contains information sufficient for after the fact investigation of loss or impropriety for appropriate response, including pursuit of legal remedies.",Security
+NFR_01239,A transaction collection process must exist. Data being transmitted from the POS devices must be transmitted in a manner that ensures integrity of the data,Security
+NFR_01564,POS systems must support the unique identification of users.,Security
+NFR_01333,The system shall provide protection to maintain the integrity of clinical data during concurrent access.,Security
+NFR_00818,NPAC SMS shall generate a paper list to each Service Provider of the MD5 hashes of all the public keys used by a Service Provider once a month.,Security
+NFR_01112,On receipt of a valid (i.e. authorized) request for data stored in the CNG the CNG shall return the requested data to the requesting user.,Security
+NFR_01369,"The assumption of reasonableness usually rests on how well the patient or person was informed about the intended collection, use, or disclosure of his or her personal information.",Security
+NFR_01487,"1)prevent unauthorized access, damage and interference to business premises and information;",Security
+NFR_01680,"VLER DAS stores the â€˜Organization Nameâ€™ the notification is sent to, when available, in an audit log.",Security
+NFR_00410,Program Administrators/Nursing Staff Members are the only people who shall have access to clinical site details.,Security
+NFR_01350,"The system shall support protection of integrity of all Protected Health Information (PHI) delivered over the Internet or other known open networks via SHA1 hashing and an open protocol such as TLS, SSL, IPSec, XML digital signature, or S or MIME or their successors.",Security
+NFR_00169,The system must not return a restricted web page to a non-authorized user.,Security
+NFR_00098,The system could provide the ability to destroy data records so that all traces are removed.,Security
+NFR_01033,Direct access to the data stored in the database is only allowed for Administrator(s) using the CLI.,Security
+NFR_01648,"The VA requires â€œthat system audit logs must record sufficient information to establish what events occurred, the sources, and outcomes of the events.",Security
+NFR_00784,"NPAC SMS shall not support any mode of entry into NPAC SMS for maintenance, support, or operations that would violate or bypass any security procedures.",Security
+NFR_01501,Legal requirements follow from the Manitoba regulations pursuant to Personal Health Information Act: ï¿½to ensure the security of PHI in electronic form when the computer hardware or removable electronic storage media on which it has been recorded is being disposed of or used for another purposeï¿½.,Security
+NFR_01323,"Statement: Retain, ensure availability, and destroy health record information according to scope of practice, organizational policy, or jurisdictional law.",Security
+NFR_00153,The system could provide the ability to update access privilege rules.,Security
+NFR_01347,Vendor may self-certify compliance with this standard through procedures that make use of commercial malware scanning software.,Security
+NFR_01401,The EHRi must provide functions for marking records of selected patients or persons52 and subsequently making accesses to such data subject to mandatory auditing by the individual accountable for privacy compliance in the organisation.,Security
+NFR_00417,The system shall be built such that it is as secure as possible from malicious interference.,Security
+NFR_01684,- Allows secure messaging and notifications about discrepancies within the patient's circle of care,Security
+NFR_01523,"While physical protection of data storage will always be essential (to protect system availability), de-identification and encryption should be seriously considered in the design of any new system.",Security
+NFR_01359,"Organisations hosting components of the EHRi, should assess, by means of a Privacy Impact Assessment, the risks to personal privacy associated with implementation of the hosted components and should implement appropriate privacy controls to mitigate identified risks.",Security
+NFR_01628,"An EHRi that effectively encrypts such PHI during storage and when in transit could avoid these unintended disclosures to system personnel and other insiders (albeit with attendant overhead in administration and processing) but there are many other options as well, including decoupling of personal identifiers from healthcare information.80",Security
+NFR_01394,"Rationale: The Alberta Health Information Protection Act, Manitoba Personal Health Information Protection Act and Ontario Personal Health Information Act all require that custodians of PHI only collect, use or disclose as much PHI as is reasonably necessary to carry out the identified purposes.",Security
+NFR_01572,"A hierarchical organisation of roles, accommodating users who frequently switch between dual roles that are both related to clinical care, would greatly reduce user frustration from needlessly having to switch between one role and the other.",Security
+NFR_01217,The count and amount of the transactions in the batch must be protected by the S4 MAC This information is not part of the card issuerÂƒ??s verification process,Security
+NFR_00772,"NPAC SMS NMS shall provide a real-time mechanism to monitor the occurrence or accumulation of security auditable events. Where possible, NPAC SMS shall determine and execute the least disruptive action to terminate the event.",Security
+NFR_01683,"Via a usable interface, nurses need immediate and easy access to accurate and critical information about the care provided to patients to support decision-making regarding safe, quality care",Security
+NFR_01302,"To ensure that access is controlled, an EHR-S must perform authentication and authorization of users or applications for any operation that requires it and enforce the system and information access rules that have been defined.",Security
+NFR_01338,The system shall provide authorized administrators with the capability to read all audit information from the audit records in one of the following two ways: 1) The system shall provide the audit records in a manner suitable for the user to interpret the information.,Security
+NFR_00697,NPAC SMS shall provide a mechanism to immediately notify the NPAC SMS system administrator when the threshold in R7-33.1 is exceeded.,Security
+NFR_01513,"All organisations hosting components of the EHRi or connecting to the EHRi must implement appropriate detection and prevention controls and appropriate user awareness procedures to protect against malicious software (viruses, worms, etc.)",Security
+NFR_00523,Unauthorised users can only read data without modifying anything.,Security
+NFR_01411,c) allow a patient or person to challenge the accuracy and completeness of his or her PHI and have it amended as appropriate.,Security
+NFR_00626,Appropriate content presentation also plays a key role in accessibility.,Security
+NFR_00884,Retains access to metadata for deleted or retracted content. (Access may restricted to NLM staff only).,Security
+NFR_00877,Access rights and conditions of use will be held for each digital object and its related metadata.,Security
+NFR_00451,Only the System Administrator shall be able to reset a revoked user logon account,Security
+NFR_00683,Passwords shall contain a combination of at least six case-sensitive alphanumeric characters including at least one alphabetic and one numeric or punctuation character.,Security
+NFR_01041,The System shall be capable of registering Users for the purpose of controlling their access to System Elements and Data Products.,Security
+NFR_00083,The system must support standards-based encryption mechanisms for secure data exchange.,Security
+NFR_00741,NPAC SMS shall handle duplicate/multiple inputs.,Security
+NFR_00905,The system shall require the user to enter their username and password to login to the system.,Security
+NFR_00533,A correct combination of username and password is required for a user to login.,Security
+NFR_01087,"The menu item named â€œLogoutâ€_x009d_ in the main menu entitled â€œFileâ€_x009d_ shall be enabled only if the current user is presently authenticated as the administrator user. Otherwise, this menu item shall be disabled.",Security
+NFR_01237,A credit command which contains the S2 MAC computed by the PSAM using the session key is sent to the CEP card,Security
+NFR_00862,The authentication method is configurable by the System Administrator.,Security
+NFR_01380,"Furthermore, some health data protection legislation requires that health information custodians notify a patient or person if his or her information is stolen, lost, or accessed by unauthorized persons.38 The individual(s) responsible for facilitating an organisationï¿½s privacy compliance will be greatly assisted in determining when a potential ï¿½unauthorizedï¿½access or disclosure of PHI has taken place if they are notified when an individualï¿½s consent directives are overridden.",Security
+NFR_01253,The terminal must authenticate the card and the transaction at the point of sale ensuring that they are genuine and valid,Security
+NFR_01077,Access to this information must be private.,Security
+NFR_01505,3)protect the integrity of software and information;,Security
+NFR_00842,"Moreover, recovering the password and the keyfile that one PeaZip user has inserted or set to an archive(this feature is described in previous chapters)by any other user of the computer system or the application, through the application itself or in general the computer system.",Security
+NFR_01145,"""Secure memory management shall ensure that When more than one logical channel is supported, each concurrently selected Application's code and data (including transient session data) as well as the runtime environment itself and its data (including transient session data) is protected from unauthorized access from within the card,""",Security
+NFR_00030,The system shall log all security events,Security
+NFR_01201,The issuer sends S2 to the load acquirer in the authorization response message.,Security
+NFR_01467,Identifying and (where appropriate) protectively labelling information assets as confidential can be an important tool in staff training and awareness.,Security
+NFR_01398,Rationale: An electronic health record environment should facilitate the achievement of better quality records by building in automatic checks on data entry and making it easier to update even the most basic demographic and location information on any patient or person.,Security
+NFR_01274,Appropriate time stamps for all medication related activity are generated.,Security
+NFR_01026,Ability for the data center admin to protect internal e-mail customer identity.,Security
+NFR_01533,The EHRi may be required to keep a record of all cross-jurisdictional transfers of PHI.,Security
+NFR_01674,"VLER DAS stores the â€˜Transaction Typeâ€™ (description of action, e.g., Store Status) , when available, in an audit log.",Security
+NFR_00845,The owner is then able to set up subsidiary users such as the master of the vessel with their own username and password.,Security
+NFR_00511,A waiter password used for tablet login must have a bit-strength of at least 64 bits.,Security
+NFR_01178,When present during the loading of a Load File to the card each signature shall be verified by the appropriate Security Domain.,Security
+NFR_01155,The OPEN shall Ensure that the Card Content changes are authorized by the Card Issuer,Security
+NFR_00234,The System shall maintain consistent security. Any changes in user passwords and/or permissions should take affect in all parts of the System.,Security
+NFR_00579,Users shall be required to log into the system for all operations except the operations on the login page.,Security
+NFR_00173,The development processes must comply with SSE-CMM capability level 3 or above.,Security
+NFR_01370,"An organisation should be able to demonstrate that it complied with applicable legislative requirements and that the patient or person had a reasonable opportunity to know that information was going to be collected and used for specific purposes and persisted with the action that resulted in the information flow.26, 27",Security
+NFR_00900,The systems should adhere to the privacy policy set forth by NJIT and its administration and also state and federal guidelines.,Security
+NFR_00810,"NPAC SMS shall ensure that during a security key exchange, each party provide the other with a list of keys.",Security
+NFR_00972,No personal information is stored by the system so no specific security requirements need to be defined.,Security
+NFR_00971,"The system does not use or receive network connections and is used locally, This means that no network safety requirements exist, Overwriting an existing file on the file system has to be confirmed from the user to prevent accidental loss of data.",Security
+NFR_01326,3) The system shall provide audit capabilities indicating the time stamp for an object or data creation.,Security
+NFR_01265,The system must protect the integrity of key transaction data including transaction identification currency code and amount. If tampering is suspected the system must cause the transaction to fail,Security
+NFR_01267,Authorizations for load transactions require a form of cardholder authentication for funds requests,Security
+NFR_01055,"The system will need policy and procedures protecting the data from intentional or unintentional modifications, and to ensure accurate data are made available.",Security
+NFR_01031,The password of the user should be encrypted when submitted from user to server.,Security
+NFR_01378,"As a practical matter, a healthcare organisation wishing to access PHI from another jurisdiction must do so in a manner that respects the legal requirements for consent to disclose PHI in the jurisdiction of the organisation that holds the data as well as satisfy all the legal requirements for consent to access PHI in its own jurisdiction.",Security
+NFR_00131,The system should provide the ability to use a formal standard terminology model.,Security
+NFR_00955,The administrator shall be able to create bridge-level access filters.,Security
+NFR_01195,If this is not a cash load the funds issuer needs to verify that the funds are requested by the legitimate account owner which is normally done by the presentation of an enciphered PIN.,Security
+NFR_00834,"Access to the application by the Construction Junction staff must require user login. Access to application screens and functions is granted or denied based on the profile and role of the currently logged in user, as detailed in the preceding use-case requirements.",Security
+NFR_00710,NPAC SMS shall use authentication of public encryption keys for users accessing the NPAC SMS over the Internet.,Security
+NFR_00145,The system should provide the ability to interoperate with other systems that use known earlier standard versions.,Security
+NFR_01154,The OPEN shall Check application access rules according to the Applications' privileges,Security
+NFR_01531,"To construct an authoritative transcript of which users have accessed a patient or personï¿½s PHI or what PHI a user has accessed, all audit records will need to be accessible and hence audit requirements meeting the strictest existing jurisdictional legal requirements are essential to support full interoperability across jurisdictions.",Security
+NFR_01617,Effective security vulnerability management of new or significantly upgraded systems and software should also include penetration testing.,Security
+NFR_01029,Every user account is protected with a personal password.,Security
+NFR_01216,These totals are used by the merchant acquirer to ensure the integrity of the batch,Security
+NFR_01014,Ability for the data center admin to recover by time.,Security
+NFR_00628,The system shall encrypt all sensitive information via https.,Security
+NFR_00343,The product shall information Security. The product shall enable privacy by encryption WS-Security and Integrity Checking.,Security
+NFR_00067,The system must prevent access to applications or data to all non-authenticated users.,Security
+NFR_00599,The system’s back-end databases shall be encrypted.,Security
+NFR_00776,NPAC SMS shall provide procedures or mechanisms to allow recovery after a system failure without a security compromise.,Security
+NFR_00541,The system should not leave any cookies on the customer’s computer containing the user’s password.,Security
+NFR_00235,The System shall granularly control access rights to all major subsystems. It should be possible to assign access rights to all subsystems independently.,Security
+NFR_00452,The Disputes application shall manipulate and view business data. Users will not have direct access to data files or databases.,Security
+NFR_01013,Ability for the data center admin to recover by mailbox.,Security
+NFR_00494,System security and access levels are provided in the online system. There are varying levels of system access and functional authority. Each student’s access is limited to his/her own registration records. Only authorized system administrator(s) has access to all student registration records.,Security
+NFR_00867,"General Public Access: Allows restriction to access by the general public, based on licensing terms, time period (embargo periods), location (IP range restrictions), restricted workstation access as well as other possible legal restrictions.",Security
+NFR_01594,"Moreover, some level of uniformity in the strength of authentication will likely be needed to support cross-jurisdictional interoperability.",Security
+NFR_01388,"As outlined in Privacy Requirement 5, organisations connecting to the EHRi and organisations hosting components of the EHRi should limit collection of PHI to that which is necessary for the identified purposes.",Security
+NFR_00289,The streaming server will have anti-virus software to prevent infection of malicious viruses.,Security
+NFR_00537,Each account must securely store all of its data.,Security
+NFR_01653,"2) VLER DAS stores the following attributes, when available, in an audit log: a) Unique Identifier for the exam result; b) Creation Date (Date, Time, and Time Zone); c) Date Status Modified (Date, Time, and Time Zone); d) System ID (Fully Qualified Domain Name); e) Transaction Type (description of action, e.g., Store); f) Organization Name the document is received from or sent to; g) Event Description (e.g.,refer to audit logging events below ); h) Patient ID (EDIPI, if not available then ICN, if neither available then SSN) , Assigning Authority, Assigning Facility;",Security
+NFR_01634,The requirements for patient or person identification and the data used to support it may also vary from jurisdiction to jurisdiction.,Security
+NFR_01390,A caveat is that healthcare providers may collect any information deemed relevant to the purposes stated to patients or persons and then ensure that it is only used and disclosed on a ï¿½need to knowï¿½ basis.,Security
+NFR_01088,"The configuration window shall permit the administrator user to modify the following parameters: The password for the administrator user, A toggle enabling or disabling the main window of the tool as a screen saver, A toggle enabling or disabling the main windowâ€™s position on the screen as the top most window, Buildings and subsystems to be monitored and the conditions they will be monitored for, The conditions will be selected from a list provided by the tool, The enabled state of individual conditions, Disabled conditions will not be processed or displayed, The sensitivity of each condition by selecting a sensitivity from a list provided by the tool, Scale factors for transforming the engineering units of sensed input data to the required units, The expected range of sensed input data.",Security
+NFR_00164,The system must encrypt sensitive data that are transmitted over the Internet between the server and the browser.,Security
+NFR_01677,"The events and outcomes associated with the specified notification will be recorded in VLER DAS audit logs, and can be used to aid in tracking the exam result through the system.",Security
+NFR_00733,NPAC SMS shall provide a mechanism to remove access rights to all software resources for a user or a group of users.,Security
+NFR_00728,NPAC SMS shall ensure that control of access to resources is based on authenticated user identification.,Security
+NFR_00448,The Disputes System shall generate a User Report that details any new users that have been added and any changes to an existing user\92s access level. The report will be reviewed for auditing purposes.,Security
+NFR_00418,The system shall use the organization s standard virus protection software to help monitor threats to itself.,Security
+NFR_01586,Rationale: This helps to ensure that applications containing PHI are not compromised by masquerading remote servers possibly and possibly applications.,Security
+NFR_00754,NPAC SMS shall write a record to the security audit log for logins of NPAC users.,Security
+NFR_01510,All organisations hosting components of the EHRi must control changes to information processing facilities and systems that support the EHRi by means of a formal and structured change control process to ensure the appropriate control of host applications and systems.,Security
+NFR_01343,"When passwords are used, the system shall provide an administrative function that resets passwords.",Security
+NFR_00713,"NPAC SMS shall ensure that the message is NPAC SMSâ€‘specifiable to meet their own requirements, and any applicable laws.",Security
+NFR_00704,NPAC SMS shall provide a mechanism to restrict user login based on method of entry.,Security
+NFR_01495,All organisations hosting components of the EHRi must protect sites and equipment supporting the EHRi to reduce the risks from environmental threats and hazards.,Security
+NFR_00765,NPAC SMS shall provide postâ€‘collection audit analysis tools that can produce summary reports on users relating to system intrusions.,Security
+NFR_00756,NPAC SMS shall write a record to the security audit log for unauthorized data access attempts.,Security
+NFR_01627,9)Keeping PHI from System and Administrative Personnel EHRi system administrators may have access to PHI that they are not authorized to retrieve; either directly via system tools other than the application level user interface or via integration engines that process and exchange information.,Security
+NFR_00172,The system must be built following SOA web service security standards.,Security
+NFR_00176,If projected the data must be readable. On a 10x10 projection screen 90% of viewers must be able to read Event / Activity data from a viewing distance of 30,Usability
+NFR_00375,The product shall have a consistent color scheme and fonts.,Usability
+NFR_00247,The website shall be attractive to all audiences. The website shall appear to be fun and the colors should be bright and vibrant.,Usability
+NFR_00256,The product shall be easy for customers with novice skills on the Internet to purchase and watch streaming movies. Customers should be able to purchase and watch a pre-determined movie in under 3 minutes.,Usability
+NFR_00427,The intranet pages should display appropriately in all resolutions from 800x600 and higher. The display of all the pages will be correct in 95% of the resolutions prior to implementation. The remaining 5% will be corrected within a week of notification of the incorrect display.,Usability
+NFR_00305,When a ship is sunk the product shall simulate the sound of a sinking ship.,Usability
+NFR_00354,The WCS system shall use appropriate nomenclature and terminology as defined by the Corporate Community Grants organization. All interfaces and reports will undergo usability tests by CCR users.,Usability
+NFR_00612,The entire website must be user-friendly and easily navigable. The website must be provided with a site map for quick access to a particular link according to the requirement specification. The user must be able to find what he/she wants from the site without any difficulty. The website must adhere to branding schemes and the layout of the web pages must be uniform throughout,Usability
+NFR_00393,90% of untrained realtors shall be able to install the product on their device without printed instructions,Usability
+NFR_00253,An anonymous survey will show that 70% of customers are comfortable purchasing streaming movies after 2 weeks using the website.,Usability
+NFR_00207,The product shall be easy to use. 90% of users will be able to successfully reserve a conference room within 5 minutes of product use.,Usability
+NFR_00465,The product shall retain the customer\92s buying preferences and information.,Usability
+NFR_00252,Users should be able to access their streaming movies in under 2 clicks after logging into the website.,Usability
+NFR_00502,The system shall show a tabbed display (or equivalent functionality) with the campus map on one tab and info on the most recently announced building on the other.,Usability
+NFR_00405,The verbiage used within the system shall be consistent with Standard English and the terminology of the national Nursing Community.,Usability
+NFR_00314,The system shall be easy to learn by callers and supervisors. Callers and supervisors shall learn how to use the system within 10 minutes.,Usability
+NFR_00254,An anonymous survey will show that 95% of customers are comfortable using and purchasing pre-paid cards after a month of using the system.,Usability
+NFR_00352,A user shall be able to use the system without instruction after a short amount of time. After one use a user should understand and remember 90% of the system usage and navigation.,Usability
+NFR_00483,The system must be quickly accessible by both managers and chefs.,Usability
+NFR_00367,Users shall be able to view at least 25 NFL player statistics and points on each page.,Usability
+NFR_01718,Unload and currency exchange transactions are optional for CEP card issuers. The CEP card must indicate whether the card issuer supports these transactions. However if a card issuer issues multi-currency capable cards it must provide its cardholder with a facility to remove any remaining value. As a result if a card issuer supports loading of multiple currencies onto a card then it must support the unload or currency exchange transaction or both,Usability
+NFR_00258,The website will use standard Internet conventions when interacting with the user.,Usability

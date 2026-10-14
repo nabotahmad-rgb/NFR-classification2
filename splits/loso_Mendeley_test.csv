@@ -1,0 +1,58 @@
+item_id,text,label
+NFR_00001,The system shall respond to user requests within 30 seconds,Performance
+NFR_00002,Database queries shall execute within 30 milliseconds,Performance
+NFR_00003,The system shall respond to user requests within 2 seconds,Performance
+NFR_00004,Page load time shall not exceed 2 seconds,Performance
+NFR_00005,Database queries shall execute within 60 milliseconds,Performance
+NFR_00006,Page load time shall not exceed 30 seconds,Performance
+NFR_00007,Database queries shall execute within 2 milliseconds,Performance
+NFR_00008,The system shall respond to user requests within 60 seconds,Performance
+NFR_00009,The system shall respond to user requests within 10 seconds,Performance
+NFR_00010,Database queries shall execute within 5 milliseconds,Performance
+NFR_00011,The system shall respond to user requests within 5 seconds,Performance
+NFR_00012,The system shall support up to 500 concurrent users,Performance
+NFR_00013,Page load time shall not exceed 5 seconds,Performance
+NFR_00014,The system shall support up to 10000 concurrent users,Performance
+NFR_00015,Page load time shall not exceed 10 seconds,Performance
+NFR_00016,Page load time shall not exceed 60 seconds,Performance
+NFR_00017,Database queries shall execute within 10 milliseconds,Performance
+NFR_00018,The system shall support up to 5000 concurrent users,Performance
+NFR_00019,The system shall support up to 1000 concurrent users,Performance
+NFR_00020,The system shall support up to 100 concurrent users,Performance
+NFR_00021,User authentication shall require OAuth 2.0,Security
+NFR_00022,Access control shall be implemented using JWT,Security
+NFR_00023,Access control shall be implemented using SSL/TLS,Security
+NFR_00024,The system shall encrypt all sensitive data using AES-256,Security
+NFR_00025,Access control shall be implemented using AES-256,Security
+NFR_00026,User authentication shall require RBAC,Security
+NFR_00027,User authentication shall require JWT,Security
+NFR_00028,The system shall encrypt all sensitive data using JWT,Security
+NFR_00029,User authentication shall require RSA,Security
+NFR_00030,The system shall log all security events,Security
+NFR_00031,The system shall encrypt all sensitive data using RBAC,Security
+NFR_00032,Access control shall be implemented using OAuth 2.0,Security
+NFR_00033,The system shall encrypt all sensitive data using RSA,Security
+NFR_00034,Access control shall be implemented using RSA,Security
+NFR_00035,User authentication shall require SSL/TLS,Security
+NFR_00036,Access control shall be implemented using RBAC,Security
+NFR_00037,User authentication shall require AES-256,Security
+NFR_00038,The system shall encrypt all sensitive data using SSL/TLS,Security
+NFR_00039,The system shall encrypt all sensitive data using OAuth 2.0,Security
+NFR_00040,Error messages shall be clear and actionable,Usability
+NFR_00041,The user interface shall be intuitive and user-friendly,Usability
+NFR_00042,The system shall support multiple languages,Usability
+NFR_00043,The system shall provide help documentation,Usability
+NFR_00044,The system shall recover from failures within 30 minutes,Reliability
+NFR_00045,Data backup shall occur every 2 hours,Reliability
+NFR_00046,Data backup shall occur every 5 hours,Reliability
+NFR_00047,The system shall recover from failures within 2 minutes,Reliability
+NFR_00048,The system shall recover from failures within 5 minutes,Reliability
+NFR_00049,The system shall handle errors gracefully,Reliability
+NFR_00050,The system shall have 99% uptime availability,Reliability
+NFR_00051,The system shall recover from failures within 60 minutes,Reliability
+NFR_00052,The system shall have 95% uptime availability,Reliability
+NFR_00053,The system shall have 99.9% uptime availability,Reliability
+NFR_00054,Data backup shall occur every 10 hours,Reliability
+NFR_00055,Data backup shall occur every 60 hours,Reliability
+NFR_00056,Data backup shall occur every 30 hours,Reliability
+NFR_00057,The system shall recover from failures within 10 minutes,Reliability

@@ -1,0 +1,452 @@
+{
+  "0-0": {
+    "test": {
+      "Security": 268,
+      "Usability": 30,
+      "Performance": 22,
+      "Reliability": 14,
+      "Maintainability": 7,
+      "Portability": 3
+    },
+    "train": {
+      "Security": 1075,
+      "Usability": 120,
+      "Performance": 84,
+      "Reliability": 54,
+      "Maintainability": 27,
+      "Portability": 15
+    }
+  },
+  "0-1": {
+    "test": {
+      "Security": 269,
+      "Usability": 30,
+      "Performance": 21,
+      "Reliability": 14,
+      "Maintainability": 6,
+      "Portability": 4
+    },
+    "train": {
+      "Security": 1074,
+      "Usability": 120,
+      "Performance": 85,
+      "Reliability": 54,
+      "Maintainability": 28,
+      "Portability": 14
+    }
+  },
+  "0-2": {
+    "test": {
+      "Security": 269,
+      "Usability": 30,
+      "Performance": 21,
+      "Reliability": 13,
+      "Maintainability": 7,
+      "Portability": 4
+    },
+    "train": {
+      "Security": 1074,
+      "Usability": 120,
+      "Performance": 85,
+      "Reliability": 55,
+      "Maintainability": 27,
+      "Portability": 14
+    }
+  },
+  "0-3": {
+    "test": {
+      "Security": 269,
+      "Usability": 30,
+      "Performance": 21,
+      "Reliability": 13,
+      "Maintainability": 7,
+      "Portability": 4
+    },
+    "train": {
+      "Security": 1074,
+      "Usability": 120,
+      "Performance": 85,
+      "Reliability": 55,
+      "Maintainability": 27,
+      "Portability": 14
+    }
+  },
+  "0-4": {
+    "test": {
+      "Security": 268,
+      "Usability": 30,
+      "Performance": 21,
+      "Reliability": 14,
+      "Maintainability": 7,
+      "Portability": 3
+    },
+    "train": {
+      "Security": 1075,
+      "Usability": 120,
+      "Performance": 85,
+      "Reliability": 54,
+      "Maintainability": 27,
+      "Portability": 15
+    }
+  },
+  "1-0": {
+    "test": {
+      "Security": 268,
+      "Usability": 30,
+      "Performance": 22,
+      "Reliability": 14,
+      "Maintainability": 7,
+      "Portability": 3
+    },
+    "train": {
+      "Security": 1075,
+      "Usability": 120,
+      "Performance": 84,
+      "Reliability": 54,
+      "Maintainability": 27,
+      "Portability": 15
+    }
+  },
+  "1-1": {
+    "test": {
+      "Security": 269,
+      "Usability": 30,
+      "Performance": 21,
+      "Reliability": 14,
+      "Maintainability": 6,
+      "Portability": 4
+    },
+    "train": {
+      "Security": 1074,
+      "Usability": 120,
+      "Performance": 85,
+      "Reliability": 54,
+      "Maintainability": 28,
+      "Portability": 14
+    }
+  },
+  "1-2": {
+    "test": {
+      "Security": 269,
+      "Usability": 30,
+      "Performance": 21,
+      "Reliability": 13,
+      "Maintainability": 7,
+      "Portability": 4
+    },
+    "train": {
+      "Security": 1074,
+      "Usability": 120,
+      "Performance": 85,
+      "Reliability": 55,
+      "Maintainability": 27,
+      "Portability": 14
+    }
+  },
+  "1-3": {
+    "test": {
+      "Security": 269,
+      "Usability": 30,
+      "Performance": 21,
+      "Reliability": 13,
+      "Maintainability": 7,
+      "Portability": 4
+    },
+    "train": {
+      "Security": 1074,
+      "Usability": 120,
+      "Performance": 85,
+      "Reliability": 55,
+      "Maintainability": 27,
+      "Portability": 14
+    }
+  },
+  "1-4": {
+    "test": {
+      "Security": 268,
+      "Usability": 30,
+      "Performance": 21,
+      "Reliability": 14,
+      "Maintainability": 7,
+      "Portability": 3
+    },
+    "train": {
+      "Security": 1075,
+      "Usability": 120,
+      "Performance": 85,
+      "Reliability": 54,
+      "Maintainability": 27,
+      "Portability": 15
+    }
+  },
+  "2-0": {
+    "test": {
+      "Security": 268,
+      "Usability": 30,
+      "Performance": 22,
+      "Reliability": 14,
+      "Maintainability": 7,
+      "Portability": 3
+    },
+    "train": {
+      "Security": 1075,
+      "Usability": 120,
+      "Performance": 84,
+      "Reliability": 54,
+      "Maintainability": 27,
+      "Portability": 15
+    }
+  },
+  "2-1": {
+    "test": {
+      "Security": 269,
+      "Usability": 30,
+      "Performance": 21,
+      "Reliability": 14,
+      "Maintainability": 6,
+      "Portability": 4
+    },
+    "train": {
+      "Security": 1074,
+      "Usability": 120,
+      "Performance": 85,
+      "Reliability": 54,
+      "Maintainability": 28,
+      "Portability": 14
+    }
+  },
+  "2-2": {
+    "test": {
+      "Security": 269,
+      "Usability": 30,
+      "Performance": 21,
+      "Reliability": 13,
+      "Maintainability": 7,
+      "Portability": 4
+    },
+    "train": {
+      "Security": 1074,
+      "Usability": 120,
+      "Performance": 85,
+      "Reliability": 55,
+      "Maintainability": 27,
+      "Portability": 14
+    }
+  },
+  "2-3": {
+    "test": {
+      "Security": 269,
+      "Usability": 30,
+      "Performance": 21,
+      "Reliability": 13,
+      "Maintainability": 7,
+      "Portability": 4
+    },
+    "train": {
+      "Security": 1074,
+      "Usability": 120,
+      "Performance": 85,
+      "Reliability": 55,
+      "Maintainability": 27,
+      "Portability": 14
+    }
+  },
+  "2-4": {
+    "test": {
+      "Security": 268,
+      "Usability": 30,
+      "Performance": 21,
+      "Reliability": 14,
+      "Maintainability": 7,
+      "Portability": 3
+    },
+    "train": {
+      "Security": 1075,
+      "Usability": 120,
+      "Performance": 85,
+      "Reliability": 54,
+      "Maintainability": 27,
+      "Portability": 15
+    }
+  },
+  "3-0": {
+    "test": {
+      "Security": 268,
+      "Usability": 30,
+      "Performance": 22,
+      "Reliability": 14,
+      "Maintainability": 7,
+      "Portability": 3
+    },
+    "train": {
+      "Security": 1075,
+      "Usability": 120,
+      "Performance": 84,
+      "Reliability": 54,
+      "Maintainability": 27,
+      "Portability": 15
+    }
+  },
+  "3-1": {
+    "test": {
+      "Security": 269,
+      "Usability": 30,
+      "Performance": 21,
+      "Reliability": 14,
+      "Maintainability": 6,
+      "Portability": 4
+    },
+    "train": {
+      "Security": 1074,
+      "Usability": 120,
+      "Performance": 85,
+      "Reliability": 54,
+      "Maintainability": 28,
+      "Portability": 14
+    }
+  },
+  "3-2": {
+    "test": {
+      "Security": 269,
+      "Usability": 30,
+      "Performance": 21,
+      "Reliability": 13,
+      "Maintainability": 7,
+      "Portability": 4
+    },
+    "train": {
+      "Security": 1074,
+      "Usability": 120,
+      "Performance": 85,
+      "Reliability": 55,
+      "Maintainability": 27,
+      "Portability": 14
+    }
+  },
+  "3-3": {
+    "test": {
+      "Security": 269,
+      "Usability": 30,
+      "Performance": 21,
+      "Reliability": 13,
+      "Maintainability": 7,
+      "Portability": 4
+    },
+    "train": {
+      "Security": 1074,
+      "Usability": 120,
+      "Performance": 85,
+      "Reliability": 55,
+      "Maintainability": 27,
+      "Portability": 14
+    }
+  },
+  "3-4": {
+    "test": {
+      "Security": 268,
+      "Usability": 30,
+      "Performance": 21,
+      "Reliability": 14,
+      "Maintainability": 7,
+      "Portability": 3
+    },
+    "train": {
+      "Security": 1075,
+      "Usability": 120,
+      "Performance": 85,
+      "Reliability": 54,
+      "Maintainability": 27,
+      "Portability": 15
+    }
+  },
+  "4-0": {
+    "test": {
+      "Security": 268,
+      "Usability": 30,
+      "Performance": 22,
+      "Reliability": 14,
+      "Maintainability": 7,
+      "Portability": 3
+    },
+    "train": {
+      "Security": 1075,
+      "Usability": 120,
+      "Performance": 84,
+      "Reliability": 54,
+      "Maintainability": 27,
+      "Portability": 15
+    }
+  },
+  "4-1": {
+    "test": {
+      "Security": 269,
+      "Usability": 30,
+      "Performance": 21,
+      "Reliability": 14,
+      "Maintainability": 6,
+      "Portability": 4
+    },
+    "train": {
+      "Security": 1074,
+      "Usability": 120,
+      "Performance": 85,
+      "Reliability": 54,
+      "Maintainability": 28,
+      "Portability": 14
+    }
+  },
+  "4-2": {
+    "test": {
+      "Security": 269,
+      "Usability": 30,
+      "Performance": 21,
+      "Reliability": 13,
+      "Maintainability": 7,
+      "Portability": 4
+    },
+    "train": {
+      "Security": 1074,
+      "Usability": 120,
+      "Performance": 85,
+      "Reliability": 55,
+      "Maintainability": 27,
+      "Portability": 14
+    }
+  },
+  "4-3": {
+    "test": {
+      "Security": 269,
+      "Usability": 30,
+      "Performance": 21,
+      "Reliability": 13,
+      "Maintainability": 7,
+      "Portability": 4
+    },
+    "train": {
+      "Security": 1074,
+      "Usability": 120,
+      "Performance": 85,
+      "Reliability": 55,
+      "Maintainability": 27,
+      "Portability": 14
+    }
+  },
+  "4-4": {
+    "test": {
+      "Security": 268,
+      "Usability": 30,
+      "Performance": 21,
+      "Reliability": 14,
+      "Maintainability": 7,
+      "Portability": 3
+    },
+    "train": {
+      "Security": 1075,
+      "Usability": 120,
+      "Performance": 85,
+      "Reliability": 54,
+      "Maintainability": 27,
+      "Portability": 15
+    }
+  }
+}

@@ -1,0 +1,109 @@
+item_id,text,label
+NFR_00066,The system must authenticate users prior to accessing an application or data.,Security
+NFR_00067,The system must prevent access to applications or data to all non-authenticated users.,Security
+NFR_00068,The system should provide the ability to implement a Chain of Trust agreement.,Security
+NFR_00069,"The system must authenticate users using at least one of the following authentication mechanisms: username/password, digital certificate, secure token or biometrics.",Security
+NFR_00070,The system must provide the ability to create and update sets of access-control permissions granted to users.,Security
+NFR_00071,The system must record all authorization actions.,Security
+NFR_00072,The system must allow security administrators to grant authorization to users.,Security
+NFR_00073,"The system could provide the ability to authorize users based on identity, role, work assignment, present condition, location, patient consent, or patients present condition.",Security
+NFR_00074,The system must provide the ability to define system and data access rules.,Security
+NFR_00075,The system must enforce system and data access rules for all resources.,Security
+NFR_00076,"The system must monitor initial entry, modification, or data exchange, and identify the user taking the action.",Security
+NFR_00077,The system must provide additional non-repudiation functionality.,Security
+NFR_00078,"The system should prevent repudiation of data origination, receipt, or access.",Security
+NFR_00079,The system should ensure the integrity of data exchange.,Security
+NFR_00080,The system must secure all modes of data exchange.,Security
+NFR_00081,The system could provide the ability to obfuscate data.,Security
+NFR_00082,The system must encrypt and decrypt data that is exchanged over a non-secure link.,Security
+NFR_00083,The system must support standards-based encryption mechanisms for secure data exchange.,Security
+NFR_00084,The system must route exchanged data to authenticated sources and destinations.,Security
+NFR_00085,The system should provide audit information about additions and changes to the status of destinations and sources.,Security
+NFR_00086,The system must provide authentication capabilities.,Security
+NFR_00087,The system must provide authorization capabilities.,Security
+NFR_00088,The system must provide the ability to associate any attestable content with the contents author.,Security
+NFR_00089,The system must indicate the status of attestable data which has not been attested.,Security
+NFR_00090,The system must provide the ability for attestation of content by the contents author.,Security
+NFR_00091,The system could provide the ability for attestation of content by authenticated and authorized users.,Security
+NFR_00092,The system could provide the ability to use digital signatures for attestation.,Security
+NFR_00093,The system must comply with the requirements for user privacy and confidentiality.,Security
+NFR_00094,The system must provide the ability to maintain varying levels of confidentiality.,Security
+NFR_00095,The system must protect user identities from other users.,Security
+NFR_00096,The system must provide the ability to store and retrieve user record data.,Security
+NFR_00097,The system could provide the ability to identify specific data records for destruction.,Security
+NFR_00098,The system could provide the ability to destroy data records so that all traces are removed.,Security
+NFR_00099,"The system must record access and usage of systems, data, and organizational resources.",Security
+NFR_00100,The system must provide audit capabilities to indicate the timestamp for data deletion.,Security
+NFR_00101,The system must indicate the author of a data change.,Security
+NFR_00102,The system should indicate the viewer of data.,Security
+NFR_00103,The system could provide audit capabilities to capture system events at the hardware and software architecture level.,Security
+NFR_00104,The system must limit access to audit record information to appropriate entities.,Security
+NFR_00105,The system must provide the ability to generate an audit report to authorized users.,Security
+NFR_00106,The system must provide the ability to view the change history of particular data to authorized users.,Security
+NFR_00107,The system should provide the ability to record system maintenance events.,Security
+NFR_00108,The system should utilize standardized time keeping.,Security
+NFR_00109,The system should provide the ability to record and report audit information using a standards-based audit record format.,Security
+NFR_00110,The system should enable the use of linked registries and directories.,Security
+NFR_00111,The system should provide the ability to link entities to external information.,Security
+NFR_00112,The system must provide the ability to extract sensitive record information only to authoried users.,Security
+NFR_00113,The system should provide secure data exchange capabilities.,Security
+NFR_00114,The system should provide the ability to identify extracted information only to authorized users.,Security
+NFR_00115,The system should enable data extraction in standard-based formats.,Security
+NFR_00116,The system should provide the ability to extract data for administrative purposes only to authorized users.,Security
+NFR_00117,The system should provide the ability to extract data for financial purposes only to authorized users.,Security
+NFR_00118,The system could provide the ability to extract data for research purposes only to authorized users.,Security
+NFR_00119,The system could provide the ability to extract data for quality analysis purposes to authenticated users only.,Security
+NFR_00120,The system should prevent the extraction of data for public health purposes by non-authenticated and non-authorized users.,Security
+NFR_00121,The system must provide the ability to update user information.,Security
+NFR_00122,The system could track user information over time.,Security
+NFR_00123,The system should provide the ability to retrieve user information discretely.,Security
+NFR_00124,The system must provide the ability to use secure registry services and directories.,Security
+NFR_00125,The system must provide secure data interchange capabilities for using registry services and directories.,Security
+NFR_00126,The system should communicate with non-local registry services through standardized secure interfaces.,Security
+NFR_00127,The system should communicate with local registry services through standardized secure interfaces.,Security
+NFR_00128,The system should provide the ability to use registries or directories to uniquely identify users.,Security
+NFR_00129,The system must provide the ability to use standard terminologies to communicate with other systems.,Security
+NFR_00130,The system should provide the ability to exchange user data using formal standard information models and standard terminologies.,Security
+NFR_00131,The system should provide the ability to use a formal standard terminology model.,Security
+NFR_00132,The system should provide the ability to use hierarchical inference searches that were expressed using standard terminology models.,Security
+NFR_00133,The system should provide the ability to use a terminology service.,Security
+NFR_00134,The system must provide the ability to use different versions of terminology standards.,Security
+NFR_00135,The system must provide the ability to update terminology standards.,Security
+NFR_00136,The system should interoperate with systems that use different versions of a terminology standard.,Security
+NFR_00137,The system should provide the ability to deprecate terminologies.,Security
+NFR_00138,The system could provide the ability to deprecate individual codes within a terminology.,Security
+NFR_00139,The system must provide the ability to perform interchange operations with other systems in a secure standardized way.,Security
+NFR_00140,The system must manage structured documents.,Security
+NFR_00141,The system must be able to retrieve and display structured documents from external sources only to authorized users.,Security
+NFR_00142,The system must provide the ability to use different versions of data-interchange standards.,Security
+NFR_00143,The system must provide the ability to change the way that data is transmitted.,Security
+NFR_00144,The system should provide the ability to deprecate an interchange standard.,Security
+NFR_00145,The system should provide the ability to interoperate with other systems that use known earlier standard versions.,Security
+NFR_00146,The system must provide the ability to support standards-based application integration.,Security
+NFR_00147,The system should provide the ability to support CCOW standards for application integration.,Security
+NFR_00148,The system could provide the ability to support WfMC standards for application integration.,Security
+NFR_00149,The system could provide the ability to support SOA security standards for application integration.,Security
+NFR_00150,The system must use interchange agreement standards when exchanging information with partners.,Security
+NFR_00151,The system could provide the ability to automatically discover interchange services and capabilities.,Security
+NFR_00152,The system could provide the ability to create access privilege rules.,Security
+NFR_00153,The system could provide the ability to update access privilege rules.,Security
+NFR_00154,The system could provide the ability to customize access privilege rules.,Security
+NFR_00155,"The system could provide the ability to inactivate, obsolete, or destroy access privilege rules.",Security
+NFR_00156,The system could audit all changes to access privilege rules.,Security
+NFR_00157,The system should facilitate login.,Security
+NFR_00158,The system should permit local setting of application timeout.,Security
+NFR_00159,The system should log a user off a particular workstation if the user logs on to another workstation.,Security
+NFR_00160,The system must validate all user input to ensure it does not exceed the specified size.,Security
+NFR_00161,The system must authenticate requests that access a restricted Web page.,Security
+NFR_00162,The system must determine if a user is authorized to access a restricted Web page.,Security
+NFR_00163,The system must have security mechanisms that protect against denial-of-service attacks.,Security
+NFR_00164,The system must encrypt sensitive data that are transmitted over the Internet between the server and the browser.,Security
+NFR_00165,The system must remain resilient when facing attacks.,Security
+NFR_00166,The system must behave reliably under denial-of-service attacks.,Security
+NFR_00167,The system must ensure the integrity of a user account information.,Security
+NFR_00168,The system must not return a restricted web page to a non-authenticated user.,Security
+NFR_00169,The system must not return a restricted web page to a non-authorized user.,Security
+NFR_00170,The system must not accept overlong input data.,Security
+NFR_00171,The system must not accept invalid URLs.,Security
+NFR_00172,The system must be built following SOA web service security standards.,Security
+NFR_00173,The development processes must comply with SSE-CMM capability level 3 or above.,Security

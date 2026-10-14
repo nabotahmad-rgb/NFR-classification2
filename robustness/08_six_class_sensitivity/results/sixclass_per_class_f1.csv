@@ -1,0 +1,91 @@
+configuration,repeat,class,f1
+Full,0,Maintainability,0.6101694915254238
+Full,0,Performance,0.8744186046511628
+Full,0,Portability,0.8108108108108109
+Full,0,Reliability,0.7647058823529411
+Full,0,Security,0.9796371714179933
+Full,0,Usability,0.8620689655172413
+Full,1,Maintainability,0.6440677966101694
+Full,1,Performance,0.9073170731707317
+Full,1,Portability,0.7804878048780488
+Full,1,Reliability,0.8125
+Full,1,Security,0.981159955670484
+Full,1,Usability,0.87248322147651
+Full,2,Maintainability,0.6875
+Full,2,Performance,0.8815165876777251
+Full,2,Portability,0.8648648648648649
+Full,2,Reliability,0.765625
+Full,2,Security,0.9806978470675576
+Full,2,Usability,0.881578947368421
+Full,3,Maintainability,0.6086956521739131
+Full,3,Performance,0.897196261682243
+Full,3,Portability,0.7894736842105263
+Full,3,Reliability,0.7480916030534351
+Full,3,Security,0.9806114839671887
+Full,3,Usability,0.881578947368421
+Full,4,Maintainability,0.6551724137931034
+Full,4,Performance,0.9041095890410958
+Full,4,Portability,0.7804878048780488
+Full,4,Reliability,0.7971014492753623
+Full,4,Security,0.9795462997396802
+Full,4,Usability,0.8737201365187713
+Encoder-only,0,Maintainability,0.6181818181818182
+Encoder-only,0,Performance,0.8899082568807339
+Encoder-only,0,Portability,0.7647058823529411
+Encoder-only,0,Reliability,0.7669172932330827
+Encoder-only,0,Security,0.978268876611418
+Encoder-only,0,Usability,0.8621908127208481
+Encoder-only,1,Maintainability,0.5660377358490566
+Encoder-only,1,Performance,0.8493150684931506
+Encoder-only,1,Portability,0.8205128205128205
+Encoder-only,1,Reliability,0.7518796992481203
+Encoder-only,1,Security,0.9762611275964391
+Encoder-only,1,Usability,0.825503355704698
+Encoder-only,2,Maintainability,0.5454545454545454
+Encoder-only,2,Performance,0.8611111111111112
+Encoder-only,2,Portability,0.8
+Encoder-only,2,Reliability,0.7575757575757576
+Encoder-only,2,Security,0.977037037037037
+Encoder-only,2,Usability,0.8512110726643599
+Encoder-only,3,Maintainability,0.5666666666666667
+Encoder-only,3,Performance,0.8847926267281107
+Encoder-only,3,Portability,0.7317073170731707
+Encoder-only,3,Reliability,0.7611940298507462
+Encoder-only,3,Security,0.9772811918063314
+Encoder-only,3,Usability,0.8504983388704319
+Encoder-only,4,Maintainability,0.5901639344262295
+Encoder-only,4,Performance,0.8899082568807339
+Encoder-only,4,Portability,0.7894736842105263
+Encoder-only,4,Reliability,0.7751937984496124
+Encoder-only,4,Security,0.97669256381798
+Encoder-only,4,Usability,0.8581314878892734
+TF-IDF + LinearSVC,0,Maintainability,0.5660377358490566
+TF-IDF + LinearSVC,0,Performance,0.8712871287128713
+TF-IDF + LinearSVC,0,Portability,0.5384615384615384
+TF-IDF + LinearSVC,0,Reliability,0.743801652892562
+TF-IDF + LinearSVC,0,Security,0.9747160131916452
+TF-IDF + LinearSVC,0,Usability,0.8599348534201955
+TF-IDF + LinearSVC,1,Maintainability,0.5
+TF-IDF + LinearSVC,1,Performance,0.8415841584158416
+TF-IDF + LinearSVC,1,Portability,0.5384615384615384
+TF-IDF + LinearSVC,1,Reliability,0.7603305785123967
+TF-IDF + LinearSVC,1,Security,0.9708242159008024
+TF-IDF + LinearSVC,1,Usability,0.842809364548495
+TF-IDF + LinearSVC,2,Maintainability,0.6206896551724138
+TF-IDF + LinearSVC,2,Performance,0.86
+TF-IDF + LinearSVC,2,Portability,0.6666666666666666
+TF-IDF + LinearSVC,2,Reliability,0.7804878048780488
+TF-IDF + LinearSVC,2,Security,0.9732698645184914
+TF-IDF + LinearSVC,2,Usability,0.8561872909698997
+TF-IDF + LinearSVC,3,Maintainability,0.5517241379310345
+TF-IDF + LinearSVC,3,Performance,0.8613861386138614
+TF-IDF + LinearSVC,3,Portability,0.5517241379310345
+TF-IDF + LinearSVC,3,Reliability,0.7457627118644068
+TF-IDF + LinearSVC,3,Security,0.9736842105263158
+TF-IDF + LinearSVC,3,Usability,0.8406779661016949
+TF-IDF + LinearSVC,4,Maintainability,0.6274509803921569
+TF-IDF + LinearSVC,4,Performance,0.8656716417910447
+TF-IDF + LinearSVC,4,Portability,0.6428571428571429
+TF-IDF + LinearSVC,4,Reliability,0.7903225806451613
+TF-IDF + LinearSVC,4,Security,0.9736842105263158
+TF-IDF + LinearSVC,4,Usability,0.8523489932885906

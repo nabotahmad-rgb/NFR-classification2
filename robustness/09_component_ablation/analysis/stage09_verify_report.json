@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "n_failures": 0,
+  "failures": [],
+  "max_abs_numeric_difference_vs_frozen": 9.8879238130678e-17,
+  "bootstrap_indices_provenance": "regenerated deterministically from frozen RNG specification; not original saved arrays",
+  "bootstrap_seed": 20260916,
+  "bootstrap_n": 4000,
+  "records": 1719,
+  "variants": [
+    "no_gcn",
+    "no_xl",
+    "no_contrastive",
+    "no_meta"
+  ],
+  "pooled_ablation_csvs": 20,
+  "pooled_full_reference_csvs": 5
+}

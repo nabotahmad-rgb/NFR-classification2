@@ -1,0 +1,217 @@
+MAGNET-NFR Stage09 independent verification
+Root: /mnt/data/MAGNET_NFR_Stage09_Recompute_Work
+
+PASS  SHA256 manifest exists
+PASS  all 33 manifest-listed files exist
+PASS  all manifest-listed files match SHA-256
+PASS  20 pooled ablation CSVs present (found 20)
+PASS  5 frozen Full pooled CSVs present (found 5)
+PASS  frozen Stage09 summary exists
+PASS  regenerated bootstrap draw archive exists
+PASS  Full repeat 0 exists
+PASS  Full repeat 0 schema item_id,gold,pred
+PASS  Full repeat 0 has 1719 unique rows
+PASS  Full repeat 1 exists
+PASS  Full repeat 1 schema item_id,gold,pred
+PASS  Full repeat 1 has 1719 unique rows
+PASS  Full repeat 1 item alignment
+PASS  Full repeat 1 gold alignment
+PASS  Full repeat 2 exists
+PASS  Full repeat 2 schema item_id,gold,pred
+PASS  Full repeat 2 has 1719 unique rows
+PASS  Full repeat 2 item alignment
+PASS  Full repeat 2 gold alignment
+PASS  Full repeat 3 exists
+PASS  Full repeat 3 schema item_id,gold,pred
+PASS  Full repeat 3 has 1719 unique rows
+PASS  Full repeat 3 item alignment
+PASS  Full repeat 3 gold alignment
+PASS  Full repeat 4 exists
+PASS  Full repeat 4 schema item_id,gold,pred
+PASS  Full repeat 4 has 1719 unique rows
+PASS  Full repeat 4 item alignment
+PASS  Full repeat 4 gold alignment
+PASS  no_gcn repeat 0 exists
+PASS  no_gcn repeat 0 schema item_id,gold,pred
+PASS  no_gcn repeat 0 has 1719 unique rows
+PASS  no_gcn repeat 0 item alignment
+PASS  no_gcn repeat 0 gold alignment
+PASS  no_gcn repeat 1 exists
+PASS  no_gcn repeat 1 schema item_id,gold,pred
+PASS  no_gcn repeat 1 has 1719 unique rows
+PASS  no_gcn repeat 1 item alignment
+PASS  no_gcn repeat 1 gold alignment
+PASS  no_gcn repeat 2 exists
+PASS  no_gcn repeat 2 schema item_id,gold,pred
+PASS  no_gcn repeat 2 has 1719 unique rows
+PASS  no_gcn repeat 2 item alignment
+PASS  no_gcn repeat 2 gold alignment
+PASS  no_gcn repeat 3 exists
+PASS  no_gcn repeat 3 schema item_id,gold,pred
+PASS  no_gcn repeat 3 has 1719 unique rows
+PASS  no_gcn repeat 3 item alignment
+PASS  no_gcn repeat 3 gold alignment
+PASS  no_gcn repeat 4 exists
+PASS  no_gcn repeat 4 schema item_id,gold,pred
+PASS  no_gcn repeat 4 has 1719 unique rows
+PASS  no_gcn repeat 4 item alignment
+PASS  no_gcn repeat 4 gold alignment
+PASS  no_xl repeat 0 exists
+PASS  no_xl repeat 0 schema item_id,gold,pred
+PASS  no_xl repeat 0 has 1719 unique rows
+PASS  no_xl repeat 0 item alignment
+PASS  no_xl repeat 0 gold alignment
+PASS  no_xl repeat 1 exists
+PASS  no_xl repeat 1 schema item_id,gold,pred
+PASS  no_xl repeat 1 has 1719 unique rows
+PASS  no_xl repeat 1 item alignment
+PASS  no_xl repeat 1 gold alignment
+PASS  no_xl repeat 2 exists
+PASS  no_xl repeat 2 schema item_id,gold,pred
+PASS  no_xl repeat 2 has 1719 unique rows
+PASS  no_xl repeat 2 item alignment
+PASS  no_xl repeat 2 gold alignment
+PASS  no_xl repeat 3 exists
+PASS  no_xl repeat 3 schema item_id,gold,pred
+PASS  no_xl repeat 3 has 1719 unique rows
+PASS  no_xl repeat 3 item alignment
+PASS  no_xl repeat 3 gold alignment
+PASS  no_xl repeat 4 exists
+PASS  no_xl repeat 4 schema item_id,gold,pred
+PASS  no_xl repeat 4 has 1719 unique rows
+PASS  no_xl repeat 4 item alignment
+PASS  no_xl repeat 4 gold alignment
+PASS  no_contrastive repeat 0 exists
+PASS  no_contrastive repeat 0 schema item_id,gold,pred
+PASS  no_contrastive repeat 0 has 1719 unique rows
+PASS  no_contrastive repeat 0 item alignment
+PASS  no_contrastive repeat 0 gold alignment
+PASS  no_contrastive repeat 1 exists
+PASS  no_contrastive repeat 1 schema item_id,gold,pred
+PASS  no_contrastive repeat 1 has 1719 unique rows
+PASS  no_contrastive repeat 1 item alignment
+PASS  no_contrastive repeat 1 gold alignment
+PASS  no_contrastive repeat 2 exists
+PASS  no_contrastive repeat 2 schema item_id,gold,pred
+PASS  no_contrastive repeat 2 has 1719 unique rows
+PASS  no_contrastive repeat 2 item alignment
+PASS  no_contrastive repeat 2 gold alignment
+PASS  no_contrastive repeat 3 exists
+PASS  no_contrastive repeat 3 schema item_id,gold,pred
+PASS  no_contrastive repeat 3 has 1719 unique rows
+PASS  no_contrastive repeat 3 item alignment
+PASS  no_contrastive repeat 3 gold alignment
+PASS  no_contrastive repeat 4 exists
+PASS  no_contrastive repeat 4 schema item_id,gold,pred
+PASS  no_contrastive repeat 4 has 1719 unique rows
+PASS  no_contrastive repeat 4 item alignment
+PASS  no_contrastive repeat 4 gold alignment
+PASS  no_meta repeat 0 exists
+PASS  no_meta repeat 0 schema item_id,gold,pred
+PASS  no_meta repeat 0 has 1719 unique rows
+PASS  no_meta repeat 0 item alignment
+PASS  no_meta repeat 0 gold alignment
+PASS  no_meta repeat 1 exists
+PASS  no_meta repeat 1 schema item_id,gold,pred
+PASS  no_meta repeat 1 has 1719 unique rows
+PASS  no_meta repeat 1 item alignment
+PASS  no_meta repeat 1 gold alignment
+PASS  no_meta repeat 2 exists
+PASS  no_meta repeat 2 schema item_id,gold,pred
+PASS  no_meta repeat 2 has 1719 unique rows
+PASS  no_meta repeat 2 item alignment
+PASS  no_meta repeat 2 gold alignment
+PASS  no_meta repeat 3 exists
+PASS  no_meta repeat 3 schema item_id,gold,pred
+PASS  no_meta repeat 3 has 1719 unique rows
+PASS  no_meta repeat 3 item alignment
+PASS  no_meta repeat 3 gold alignment
+PASS  no_meta repeat 4 exists
+PASS  no_meta repeat 4 schema item_id,gold,pred
+PASS  no_meta repeat 4 has 1719 unique rows
+PASS  no_meta repeat 4 item alignment
+PASS  no_meta repeat 4 gold alignment
+PASS  bootstrap archive has exactly the four frozen variants
+PASS  no_gcn bootstrap draws shape = 4000 x 1719
+PASS  no_gcn bootstrap draws are integer indices
+PASS  no_gcn bootstrap indices are in [0,1718]
+PASS  no_xl bootstrap draws shape = 4000 x 1719
+PASS  no_xl bootstrap draws are integer indices
+PASS  no_xl bootstrap indices are in [0,1718]
+PASS  no_contrastive bootstrap draws shape = 4000 x 1719
+PASS  no_contrastive bootstrap draws are integer indices
+PASS  no_contrastive bootstrap indices are in [0,1718]
+PASS  no_meta bootstrap draws shape = 4000 x 1719
+PASS  no_meta bootstrap draws are integer indices
+PASS  no_meta bootstrap indices are in [0,1718]
+
+=== LOCKED STATISTIC COMPARISON ===
+PASS  no_gcn: full_macro_f1_mean matches frozen summary (|diff|=0)
+PASS  no_gcn: full_macro_f1_sd matches frozen summary (|diff|=7.98e-17)
+PASS  no_gcn: ablation_macro_f1_mean matches frozen summary (|diff|=0)
+PASS  no_gcn: ablation_macro_f1_sd matches frozen summary (|diff|=8.15e-17)
+PASS  no_gcn: delta_macro_f1 matches frozen summary (|diff|=0)
+PASS  no_gcn: ci95_lo matches frozen summary (|diff|=9.28e-17)
+PASS  no_gcn: ci95_hi matches frozen summary (|diff|=6.25e-17)
+PASS  no_gcn: ci90_lo matches frozen summary (|diff|=6.94e-17)
+PASS  no_gcn: ci90_hi matches frozen summary (|diff|=2.08e-17)
+PASS  no_gcn: ci98_75_bonf_lo matches frozen summary (|diff|=5.25e-17)
+PASS  no_gcn: ci98_75_bonf_hi matches frozen summary (|diff|=7.63e-17)
+PASS  no_gcn: bootstrap_p_raw matches frozen summary (|diff|=8.41e-17)
+PASS  no_gcn: bootstrap_p_holm matches frozen summary (|diff|=5.2e-17)
+PASS  no_gcn: equivalence decision matches frozen summary
+PASS  no_xl: full_macro_f1_mean matches frozen summary (|diff|=0)
+PASS  no_xl: full_macro_f1_sd matches frozen summary (|diff|=7.98e-17)
+PASS  no_xl: ablation_macro_f1_mean matches frozen summary (|diff|=0)
+PASS  no_xl: ablation_macro_f1_sd matches frozen summary (|diff|=3.12e-17)
+PASS  no_xl: delta_macro_f1 matches frozen summary (|diff|=8.33e-17)
+PASS  no_xl: ci95_lo matches frozen summary (|diff|=9.89e-17)
+PASS  no_xl: ci95_hi matches frozen summary (|diff|=3.82e-17)
+PASS  no_xl: ci90_lo matches frozen summary (|diff|=4.34e-17)
+PASS  no_xl: ci90_hi matches frozen summary (|diff|=5.9e-17)
+PASS  no_xl: ci98_75_bonf_lo matches frozen summary (|diff|=2.43e-17)
+PASS  no_xl: ci98_75_bonf_hi matches frozen summary (|diff|=4.16e-17)
+PASS  no_xl: bootstrap_p_raw matches frozen summary (|diff|=5.55e-17)
+PASS  no_xl: bootstrap_p_holm matches frozen summary (|diff|=5.55e-17)
+PASS  no_xl: equivalence decision matches frozen summary
+PASS  no_contrastive: full_macro_f1_mean matches frozen summary (|diff|=0)
+PASS  no_contrastive: full_macro_f1_sd matches frozen summary (|diff|=7.98e-17)
+PASS  no_contrastive: ablation_macro_f1_mean matches frozen summary (|diff|=0)
+PASS  no_contrastive: ablation_macro_f1_sd matches frozen summary (|diff|=8.15e-17)
+PASS  no_contrastive: delta_macro_f1 matches frozen summary (|diff|=3.12e-17)
+PASS  no_contrastive: ci95_lo matches frozen summary (|diff|=2.6e-17)
+PASS  no_contrastive: ci95_hi matches frozen summary (|diff|=1.39e-17)
+PASS  no_contrastive: ci90_lo matches frozen summary (|diff|=3.64e-17)
+PASS  no_contrastive: ci90_hi matches frozen summary (|diff|=8.33e-17)
+PASS  no_contrastive: ci98_75_bonf_lo matches frozen summary (|diff|=2.52e-17)
+PASS  no_contrastive: ci98_75_bonf_hi matches frozen summary (|diff|=9.02e-17)
+PASS  no_contrastive: bootstrap_p_raw matches frozen summary (|diff|=7.89e-17)
+PASS  no_contrastive: bootstrap_p_holm matches frozen summary (|diff|=1.56e-17)
+PASS  no_contrastive: equivalence decision matches frozen summary
+PASS  no_meta: full_macro_f1_mean matches frozen summary (|diff|=0)
+PASS  no_meta: full_macro_f1_sd matches frozen summary (|diff|=7.98e-17)
+PASS  no_meta: ablation_macro_f1_mean matches frozen summary (|diff|=0)
+PASS  no_meta: ablation_macro_f1_sd matches frozen summary (|diff|=3.64e-17)
+PASS  no_meta: delta_macro_f1 matches frozen summary (|diff|=3.64e-17)
+PASS  no_meta: ci95_lo matches frozen summary (|diff|=2.39e-17)
+PASS  no_meta: ci95_hi matches frozen summary (|diff|=3.47e-17)
+PASS  no_meta: ci90_lo matches frozen summary (|diff|=9.05e-17)
+PASS  no_meta: ci90_hi matches frozen summary (|diff|=3.47e-17)
+PASS  no_meta: ci98_75_bonf_lo matches frozen summary (|diff|=7.63e-17)
+PASS  no_meta: ci98_75_bonf_hi matches frozen summary (|diff|=2.78e-17)
+PASS  no_meta: bootstrap_p_raw matches frozen summary (|diff|=1.39e-17)
+PASS  no_meta: bootstrap_p_holm matches frozen summary (|diff|=2.78e-17)
+PASS  no_meta: equivalence decision matches frozen summary
+
+=== SUMMARY ===
+       variant  full_macro_f1_mean  full_macro_f1_sd  ablation_macro_f1_mean  ablation_macro_f1_sd  delta_macro_f1   ci95_lo  ci95_hi   ci90_lo  ci90_hi  ci98_75_bonf_lo  ci98_75_bonf_hi  bootstrap_p_raw  equivalent_pm_0_01  bootstrap_p_holm
+        no_gcn             0.82858          0.011302                0.806076              0.009375        0.022504  0.007011 0.040443  0.009360 0.036935         0.002270         0.047397         0.005499               False          0.016496
+         no_xl             0.82858          0.011302                0.819130              0.005828        0.009450 -0.008163 0.027989 -0.005349 0.024380        -0.014340         0.033394         0.313922               False          0.313922
+no_contrastive             0.82858          0.011302                0.807838              0.004632        0.020742  0.009000 0.033165  0.011058 0.031382         0.005408         0.037099         0.001000               False          0.003999
+       no_meta             0.82858          0.011302                0.814131              0.014501        0.014449 -0.003868 0.034225 -0.000528 0.030774        -0.009712         0.040650         0.113472               False          0.226943
+
+Maximum absolute numeric difference vs frozen summary: 9.89e-17
+Report: /mnt/data/MAGNET_NFR_Stage09_Recompute_Work/analysis/stage09_verify_report.json
+Recomputed summary: /mnt/data/MAGNET_NFR_Stage09_Recompute_Work/analysis/stage09_recomputed_summary.csv
+
+PASS: Stage09 results independently reproduce from the pooled CSVs and bundled regenerated draws.

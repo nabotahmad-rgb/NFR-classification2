@@ -1,0 +1,11 @@
+{
+  "comparison": "pairaware_full_minus_pairaware_no_contrastive",
+  "n_complete_repeats": 5,
+  "delta_macro_f1": -0.0002516247477340361,
+  "ci95_lo": -0.009011542188364627,
+  "ci95_hi": 0.008666403376146159,
+  "bootstrap_p_two_sided": 0.984,
+  "n_boot": 4000,
+  "bootstrap_unit": "record; macro-F1 computed per repeat then averaged across repeats",
+  "seed": 20360909
+}

@@ -1,0 +1,19 @@
+config,collection,n,classes,metric,value
+full,Mendeley,57,4,macro_f1,0.8075757575757575
+full,PURE_and_others,1071,1,recall,0.8683473389355743
+full,SecReq Customer Premises Network (CPN),27,3,macro_f1,0.1801801801801802
+full,promise_exp,165,4,macro_f1,0.8009885947385946
+full,requirements_MoSCoW,108,1,recall,0.9351851851851852
+full,software_requirements_extended,237,4,macro_f1,0.7543249509541644
+ronly,Mendeley,57,4,macro_f1,0.8564692218350755
+ronly,PURE_and_others,1071,1,recall,0.8524743230625583
+ronly,SecReq Customer Premises Network (CPN),27,3,macro_f1,0.1801801801801802
+ronly,promise_exp,165,4,macro_f1,0.801625482339822
+ronly,requirements_MoSCoW,108,1,recall,0.9259259259259259
+ronly,software_requirements_extended,237,4,macro_f1,0.7732090643274854
+norbert,Mendeley,57,4,macro_f1,0.8559154260373772
+norbert,PURE_and_others,1071,1,recall,0.8664799253034547
+norbert,SecReq Customer Premises Network (CPN),27,3,macro_f1,0.1801801801801802
+norbert,promise_exp,165,4,macro_f1,0.7409385696270943
+norbert,requirements_MoSCoW,108,1,recall,0.8981481481481481
+norbert,software_requirements_extended,237,4,macro_f1,0.7357098470990837

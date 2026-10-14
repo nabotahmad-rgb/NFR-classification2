@@ -1,0 +1,44 @@
+SCOPE OF THIS LICENCE
+=====================
+
+The MIT Licence below covers only the work of this project's authors: the corpus
+aggregation and deduplication logic, the scope and fold decisions, all code under
+`code/`, the analysis and figure scripts, the verification scripts, and the derived
+results under `results/`, `predictions/`, `splits/` and `robustness/`.
+
+It does NOT cover the third-party datasets redistributed under `sources/`. Those files
+are the work of their original authors and remain under their own terms, which are
+recorded in `sources/SOURCES.md`. Nothing in this licence grants any right in them.
+
+`corpus/nfr_corpus.csv` contains requirement text derived from those third-party
+datasets. The aggregation, labelling decisions and identifiers are ours and fall under
+this licence; the underlying requirement text does not.
+
+-----------------------------------------------------------------------------------
+
+MIT License
+
+Copyright (c) 2026 Ahmad Nabot and Shadi Nashwan
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+The corpus in corpus/ is redistributed under the terms of its constituent
+sources, which carry their own licences. See README.md and corpus/provenance.csv.

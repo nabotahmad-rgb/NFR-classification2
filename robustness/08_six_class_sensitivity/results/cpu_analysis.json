@@ -1,0 +1,23 @@
+{
+  "n": 1719,
+  "class_counts": {
+    "Security": 1343,
+    "Usability": 150,
+    "Performance": 106,
+    "Reliability": 68,
+    "Maintainability": 34,
+    "Portability": 18
+  },
+  "majority_floor": 0.7812681791739383,
+  "summary": [
+    {
+      "configuration": "TF-IDF + LinearSVC",
+      "accuracy_mean": 0.9392670157068063,
+      "accuracy_sd": 0.003148893217620573,
+      "macro_f1_mean": 0.7680948304347075,
+      "macro_f1_sd": 0.023067079163719844,
+      "n_repeats": 5
+    }
+  ],
+  "bootstrap": null
+}

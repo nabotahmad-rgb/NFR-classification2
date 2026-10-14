@@ -1,0 +1,11 @@
+{
+  "comparison": "full_minus_roberta_only",
+  "n_complete_repeats": 5,
+  "delta_macro_f1": -0.006281713370639652,
+  "ci95_lo": -0.017127149306866405,
+  "ci95_hi": 0.004198693887029662,
+  "bootstrap_p_two_sided": 0.2255,
+  "n_boot": 4000,
+  "bootstrap_unit": "record; macro-F1 computed per repeat then averaged across repeats",
+  "seed": 20350907
+}

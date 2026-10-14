@@ -1,0 +1,17 @@
+{
+  "estimand": "Full minus Encoder-only macro F1, averaged across five repeated-CV prediction sets",
+  "point": 0.024787306095470772,
+  "ci95": [
+    0.004408454712580162,
+    0.04692714032585545
+  ],
+  "ci90": [
+    0.00785724245977343,
+    0.04369561236657338
+  ],
+  "two_sided_bootstrap_p": 0.016,
+  "B": 4000,
+  "resampling_unit": "record",
+  "inference_boundary": "conditional on the fixed six-class corpus and OOF predictions; not population-iid inference",
+  "equivalent_within_0.01_90ci": false
+}
